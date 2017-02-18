@@ -91,7 +91,7 @@ public class SplashActivity extends AppCompatActivity {
         wait3.postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(SplashActivity.this,FirstActivity.class));
+                startActivity(new Intent(SplashActivity.this,Home.class));
             }
         }, 6000);
     }
