@@ -5,7 +5,18 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:statusBarColor">#912F56</item>
-        <item name="android:background">#912F56</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/appbg</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:statusBarColor">@color/appbg</item>
+
+    </style>
+
+    <style name="AppTheme.CenterAnimation">
+        <item name="android:windowBackground">@drawable/finalis</item>
     </style>
 </resources>
