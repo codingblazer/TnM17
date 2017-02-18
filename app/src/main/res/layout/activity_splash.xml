@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:htext="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="?colorPrimary"
-    android:orientation="vertical"
     android:backgroundTint="@color/appbg"
-    >
+    android:orientation="vertical">
 
 
     <ImageView
@@ -16,11 +14,11 @@
         android:layout_width="600dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal|center_vertical"
-        android:src="@drawable/finalis"
-        tools:visibility="gone"
         android:layout_marginBottom="100dp"
         android:layout_marginRight="20dp"
-        />
+        android:src="@drawable/finalis"
+        tools:visibility="gone" />
+
     <LinearLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
@@ -29,8 +27,7 @@
         android:gravity="center"
         android:orientation="vertical"
         android:paddingTop="144dp"
-        tools:ignore="HardcodedText"
-        >
+        tools:ignore="HardcodedText">
 
         <TextView
             android:layout_width="wrap_content"
@@ -42,8 +39,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
             android:textColor="@android:color/white"
             android:textSize="20sp"
-            tools:alpha="1"
-            />
+            tools:alpha="1" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -55,9 +51,8 @@
             android:text="presents"
             android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse"
             android:textSize="16sp"
-            tools:alpha="1"
             android:textStyle="italic"
-            />
+            tools:alpha="1" />
 
         <com.hanks.htextview.HTextView
             android:id="@+id/text"
@@ -67,12 +62,10 @@
             android:gravity="center"
             android:textColor="#FFFFFF"
             android:textSize="26sp"
-            htext:animateType="anvil"
-            >
+            htext:animateType="anvil">
 
         </com.hanks.htextview.HTextView>
 
     </LinearLayout>
-
 
 </FrameLayout>
