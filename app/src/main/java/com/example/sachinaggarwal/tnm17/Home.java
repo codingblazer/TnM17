@@ -1,6 +1,7 @@
 package com.example.sachinaggarwal.tnm17;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Handler;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -101,8 +102,10 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
                 break;
 
             case R.id.schedule:
-                lastFragment = new Schedule();
-                fragment = new Schedule();
+                Intent intent=new Intent(this,Schedule.class);
+                startActivity(intent);
+//                lastFragment = new Schedule();
+//                fragment = new Schedule();
                 break;
 
             case R.id.favourites:

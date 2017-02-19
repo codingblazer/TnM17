@@ -49,6 +49,7 @@
     <color name="navy">#000080</color>
     <color name="black">#000000</color>
 
-    >>>>>>> Navigation bar and fragments added
+    <color name="background_tab_pressed">#6633B5E5</color>
+
 </resources>
 

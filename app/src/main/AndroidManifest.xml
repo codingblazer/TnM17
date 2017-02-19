@@ -12,7 +12,15 @@
 
         <activity
             android:name=".SplashActivity"
-            android:noHistory="true">
+            android:noHistory="true"></activity>
+
+        <activity
+            android:name=".Fragments.Schedule"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name=".Home"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,10 +28,6 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name=".Home"
-            android:theme="@style/AppTheme">
-        </activity>
         <activity android:name=".FirstActivity"></activity>
     </application>
 
