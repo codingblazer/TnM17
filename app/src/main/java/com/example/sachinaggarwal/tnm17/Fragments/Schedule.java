@@ -11,6 +11,7 @@ import android.support.v4.util.SparseArrayCompat;
 import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.widget.AbsListView;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toolbar;
 
@@ -41,8 +42,7 @@ public class Schedule extends FragmentActivity implements ScrollTabHolder, ViewP
     private TextView info;
     private int mLastY;
 
-    Toolbar toolbar;
-
+    Button backbutton;
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,6 +70,14 @@ public class Schedule extends FragmentActivity implements ScrollTabHolder, ViewP
         mPagerSlidingTabStrip.setViewPager(mViewPager);
         mPagerSlidingTabStrip.setOnPageChangeListener(this);
         mLastY = 0;
+
+        backbutton=(Button)findViewById(R.id.back_button);
+        backbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
     }
 
     @Override
