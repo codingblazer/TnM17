@@ -2,4 +2,21 @@
     <string name="app_name">TnM17</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+
+       <string name="generalv">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+      <string name="generalr">•	3 members per team.\n\n
+•	Rounds will be general and about India.\n\n
+•	Written prelims will be held.</string>
+<string name="generalc">Name: Vanuja T and	Tarooqh\n\n
+        Phone: 9535334678  9742577807	</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

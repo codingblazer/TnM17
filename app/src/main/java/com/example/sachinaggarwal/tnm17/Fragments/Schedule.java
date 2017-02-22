@@ -13,6 +13,7 @@ import android.view.View;
 import android.widget.AbsListView;
 import android.widget.Button;
 import android.widget.TextView;
+
 import com.example.sachinaggarwal.tnm17.ParallaxViewPager.PagerSlidingTabStrip;
 import com.example.sachinaggarwal.tnm17.ParallaxViewPager.SampleListFragment;
 import com.example.sachinaggarwal.tnm17.ParallaxViewPager.ScrollTabHolder;
@@ -64,6 +65,7 @@ public class Schedule extends FragmentActivity implements ScrollTabHolder, ViewP
         mPagerAdapter.setTabHolderScrollingContent(this);
 
         mViewPager.setAdapter(mPagerAdapter);
+
 
         mPagerSlidingTabStrip.setViewPager(mViewPager);
         mPagerSlidingTabStrip.setOnPageChangeListener(this);
