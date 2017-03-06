@@ -1,18 +1,18 @@
 package com.example.sachinaggarwal.tnm17.ParallaxViewPager;
 
-
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.View.OnTouchListener;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
-import android.widget.AbsListView.OnScrollListener;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -20,15 +20,18 @@ import com.baoyz.swipemenulistview.SwipeMenu;
 import com.baoyz.swipemenulistview.SwipeMenuCreator;
 import com.baoyz.swipemenulistview.SwipeMenuItem;
 import com.baoyz.swipemenulistview.SwipeMenuListView;
+import com.example.sachinaggarwal.tnm17.EventDetails;
 import com.example.sachinaggarwal.tnm17.Fragments.Schedule;
 import com.example.sachinaggarwal.tnm17.R;
 
 import java.util.ArrayList;
 
-public class SampleListFragment extends ScrollTabHolderFragment {
+/**
+ * Created by Bhavya Sapra on 20-02-2017.
+ */
+public class SampleListFragment2 extends ScrollTabHolderFragment {
 
     private static final String ARG_POSITION = "position";
-
 
     //<<<<<<< HEAD
     private ListView mListView;
@@ -51,9 +54,8 @@ public class SampleListFragment extends ScrollTabHolderFragment {
     private int mPosition;
 
     //>>>>>>> parallax package
-
     public static Fragment newInstance(int position) {
-        SampleListFragment f = new SampleListFragment();
+        SampleListFragment2 f = new SampleListFragment2();
         Bundle b = new Bundle();
         b.putInt(ARG_POSITION, position);
         f.setArguments(b);
@@ -64,13 +66,21 @@ public class SampleListFragment extends ScrollTabHolderFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mPosition = getArguments().getInt(ARG_POSITION);
-
-
+//
+//<<<<<<< HEAD
         mListItems = new ArrayList<String>();
 
-        for (int i = 1; i <= 100; i++) {
-            mListItems.add(i + ". item - currnet page: " + (mPosition + 1));
-        }
+
+    mListItems.add("Choreo Elims");
+    mListItems.add("Street Dance");
+    mListItems.add("Desert Duel");
+    mListItems.add("Razzmatazz Elims");
+    mListItems.add("Rock Dance");
+    mListItems.add("Funk in Motion");
+    mListItems.add("bhangra Dance");
+
+
+
 
     }
 
@@ -80,7 +90,6 @@ public class SampleListFragment extends ScrollTabHolderFragment {
         View v = inflater.inflate(R.layout.fragment_list, null);
 
         mListView = (ListView) v.findViewById(R.id.listView);
-
 
         View v1 = inflater.inflate(R.layout.schedule_list, null);
 
@@ -120,7 +129,6 @@ public class SampleListFragment extends ScrollTabHolderFragment {
             }
         };
 
-
         View placeHolderView = inflater.inflate(R.layout.view_header_placeholder, mListView, false);
         placeHolderView.setBackgroundColor(0xFFFFFFFF);
         mListView.addHeaderView(placeHolderView);
@@ -132,13 +140,29 @@ public class SampleListFragment extends ScrollTabHolderFragment {
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-
         mListView.setOnScrollListener(new OnScroll());
         mListView.setAdapter(new ArrayAdapter<String>(getActivity(), R.layout.list_item, android.R.id.text1, mListItems));
+        Log.i("Onclick","dsfdsfdsfds");
+        mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
-        if(Schedule.NEEDS_PROXY){//in my moto phone(android 2.1),setOnScrollListener do not work well
-            mListView.setOnTouchListener(new OnTouchListener() {
+            @Override
+            public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
+                Intent intent1;
+                intent1=new Intent(getContext(),EventDetails.class);
+                startActivity(intent1);
+            }
+        });
 
+
+
+//<<<<<<< HEAD
+//        if(Schedule.NEEDS_PROXY){//in my moto phone(android 2.1),setOnScrollListener do not work well
+//=======
+        Log.i("OnTouch","dsfdsfdsfds");
+
+        if (Schedule.NEEDS_PROXY) {//in my moto phone(android 2.1),setOnScrollListener do not work well
+//>>>>>>> parallax package
+            mListView.setOnTouchListener(new View.OnTouchListener() {
                 @Override
                 public boolean onTouch(View v, MotionEvent event) {
                     if (mScrollTabHolder != null)
@@ -159,8 +183,8 @@ public class SampleListFragment extends ScrollTabHolderFragment {
 
     }
 
-    public class OnScroll implements OnScrollListener{
 
+    class OnScroll implements AbsListView.OnScrollListener {
 
         @Override
         public void onScrollStateChanged(AbsListView view, int scrollState) {
@@ -183,6 +207,7 @@ public class SampleListFragment extends ScrollTabHolderFragment {
     }
 
 
+    //    @Override
 //    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 //        View v = inflater.inflate(R.layout.schedule_list, null);
 //
@@ -304,7 +329,6 @@ public class SampleListFragment extends ScrollTabHolderFragment {
 //
 //    }
 //
-
     private int dp2px(int dp) {
         return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp,
                 getResources().getDisplayMetrics());
