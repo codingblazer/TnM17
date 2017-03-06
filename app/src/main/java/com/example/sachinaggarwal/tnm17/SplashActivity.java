@@ -7,6 +7,7 @@ import android.support.v4.view.ViewPropertyAnimatorCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Html;
+import android.view.Display;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.DecelerateInterpolator;
@@ -55,12 +56,15 @@ public class SplashActivity extends AppCompatActivity {
                 .setDuration(ANIM_ITEM_DURATION).setInterpolator(
                 new DecelerateInterpolator(1.2f)).start();
 
-        for (int i = 0; i < container.getChildCount()-1; i++) {
+        Display display = getWindowManager().getDefaultDisplay();
+        int height = display.getHeight();
+
+        for (int i = 0; i < container.getChildCount(); i++) {
             View v = container.getChildAt(i);
             ViewPropertyAnimatorCompat viewAnimator;
 
                 viewAnimator = ViewCompat.animate(v)
-                        .translationY(-840).alpha(1)
+                        .translationY(-height/(2.8f)).alpha(1)
                         .setStartDelay((ITEM_DELAY * i) + 500)
                         .setDuration(500);
             viewAnimator.setInterpolator(new DecelerateInterpolator()).start();

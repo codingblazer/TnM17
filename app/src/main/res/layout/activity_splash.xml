@@ -19,6 +19,8 @@
         android:src="@drawable/finalis"
         tools:visibility="gone" />
 
+
+
     <LinearLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
@@ -26,14 +28,13 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:orientation="vertical"
-        android:paddingTop="144dp"
-        tools:ignore="HardcodedText">
+        tools:ignore="HardcodedText"
+       >
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="16dp"
             android:alpha="0"
             android:text="Maharaja Agrasen Institute"
             android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
@@ -54,18 +55,25 @@
             android:textStyle="italic"
             tools:alpha="1" />
 
-        <com.hanks.htextview.HTextView
-            android:id="@+id/text"
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:background="@color/appbg"
-            android:gravity="center"
-            android:textColor="#FFFFFF"
-            android:textSize="26sp"
-            htext:animateType="anvil">
-
-        </com.hanks.htextview.HTextView>
 
     </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="60dp">
+
+    <com.hanks.htextview.HTextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/appbg"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        htext:animateType="anvil"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp">
+    </com.hanks.htextview.HTextView>
+</RelativeLayout>
 
 </FrameLayout>
