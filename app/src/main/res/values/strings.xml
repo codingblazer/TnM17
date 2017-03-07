@@ -19,4 +19,800 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+
+    <!--string for our app-->
+
+    <!--STRING VALUES FOR CULTURAL EVENTS' VENUES-->
+
+    <string name="CL0venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="CL1venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="CL2venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-r</string>
+    <string name="CL3venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="CL4venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="CL5venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="CL6venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="CL7venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="CL8venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="CL9venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="CL10venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="CL11venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+
+    <!--STRING VALUES FOR CULTURAL EVENTS' RULES-->
+
+    <string name="CL0rules">Open navigation drawer</string>
+    <string name="CL1rules">Open navigation drawer</string>
+    <string name="CL2rules">Open navigation drawer</string>
+    <string name="CL3rules">Open navigation drawer</string>
+    <string name="CL4rules">Open navigation drawer</string>
+    <string name="CL5rules">Open navigation drawer</string>
+    <string name="CL6rules">Open navigation drawer</string>
+    <string name="CL7rules">Open navigation drawer</string>
+    <string name="CL8rules">Open navigation drawer</string>
+    <string name="CL9rules">Open navigation drawer</string>
+    <string name="CL10rules">Open navigation drawer</string>
+    <string name="CL11rules">Open navigation drawer</string>
+
+    <!--STRING VALUES FOR CULTURAL EVENTS' DESCRIPTION-->
+
+    <string name="CL0description">Open navigation drawer</string>
+    <string name="CL1description">Open navigation drawer</string>
+    <string name="CL2description">Open navigation drawer</string>
+    <string name="CL3description">Open navigation drawer</string>
+    <string name="CL4description">Open navigation drawer</string>
+    <string name="CL5description">Open navigation drawer</string>
+    <string name="CL6description">Open navigation drawer</string>
+    <string name="CL7description">Open navigation drawer</string>
+    <string name="CL8description">Open navigation drawer</string>
+    <string name="CL9description">Open navigation drawer</string>
+    <string name="CL10description">Open navigation drawer</string>
+    <string name="CL11description">Open navigation drawer</string>
+
+    <!--STRING VALUES FOR CULTURAL EVENTS' COORDINATORS-->
+
+    <string name="CL0coordinators">Open navigation drawer</string>
+    <string name="CL1coordinators">Open navigation drawer</string>
+    <string name="CL2coordinators">Open navigation drawer</string>
+    <string name="CL3coordinators">Open navigation drawer</string>
+    <string name="CL4coordinators">Open navigation drawer</string>
+    <string name="CL5coordinators">Open navigation drawer</string>
+    <string name="CL6coordinators">Open navigation drawer</string>
+    <string name="CL7coordinators">Open navigation drawer</string>
+    <string name="CL8coordinators">Open navigation drawer</string>
+    <string name="CL9coordinators">Open navigation drawer</string>
+    <string name="CL10coordinators">Open navigation drawer</string>
+    <string name="CL11coordinators">Open navigation drawer</string>
+
+    <!--STRING VALUES FOR TECHSURGE EVENTS' VENUES-->
+
+
+    <string name="TS0venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="TS1venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="TS2venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="TS3venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="TS4venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="TS5venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="TS6venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="TS7venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="TS8venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="TS9venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="TS10venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="TS11venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="TS12venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="TS13venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="TS14venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="TS15venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="TS16venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="TS17venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="TS18venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+
+
+    <!--STRING VALUES FOR TECHSURGE EVENTS' RULES-->
+
+    <string name="TS0rules">Open navigation drawer</string>
+    <string name="TS1rules">Open navigation drawer</string>
+    <string name="TS2rules">Open navigation drawer</string>
+    <string name="TS3rules">Open navigation drawer</string>
+    <string name="TS4rules">Open navigation drawer</string>
+    <string name="TS5rules">Open navigation drawer</string>
+    <string name="TS6rules">Open navigation drawer</string>
+    <string name="TS7rules">Open navigation drawer</string>
+    <string name="TS8rules">Open navigation drawer</string>
+    <string name="TS9rules">Open navigation drawer</string>
+    <string name="TS10rules">Open navigation drawer</string>
+    <string name="TS11rules">Open navigation drawer</string>
+    <string name="TS12rules">Open navigation drawer</string>
+    <string name="TS13rules">Open navigation drawer</string>
+    <string name="TS14rules">Open navigation drawer</string>
+    <string name="TS15rules">Open navigation drawer</string>
+    <string name="TS16rules">Open navigation drawer</string>
+    <string name="TS17rules">Open navigation drawer</string>
+    <string name="TS18rules">Open navigation drawer</string>
+
+
+    <!--STRING VALUES FOR TECHSURGE EVENTS' DESCRIPTION-->
+
+    <string name="TS0description">Open navigation drawer</string>
+    <string name="TS1description">Open navigation drawer</string>
+    <string name="TS2description">Open navigation drawer</string>
+    <string name="TS3description">Open navigation drawer</string>
+    <string name="TS4description">Open navigation drawer</string>
+    <string name="TS5description">Open navigation drawer</string>
+    <string name="TS6description">Open navigation drawer</string>
+    <string name="TS7description">Open navigation drawer</string>
+    <string name="TS8description">Open navigation drawer</string>
+    <string name="TS9description">Open navigation drawer</string>
+    <string name="TS10description">Open navigation drawer</string>
+    <string name="TS11description">Open navigation drawer</string>
+    <string name="TS12description">Open navigation drawer</string>
+    <string name="TS13description">Open navigation drawer</string>
+    <string name="TS14description">Open navigation drawer</string>
+    <string name="TS15description">Open navigation drawer</string>
+    <string name="TS16description">Open navigation drawer</string>
+    <string name="TS17description">Open navigation drawer</string>
+    <string name="TS18description">Open navigation drawer</string>
+
+
+    <!--STRING VALUES FOR TECHSURGE EVENTS' COORDINATORS-->
+
+    <string name="TS0coordinators">Open navigation drawer</string>
+    <string name="TS1coordinators">Open navigation drawer</string>
+    <string name="TS2coordinators">Open navigation drawer</string>
+    <string name="TS3coordinators">Open navigation drawer</string>
+    <string name="TS4coordinators">Open navigation drawer</string>
+    <string name="TS5coordinators">Open navigation drawer</string>
+    <string name="TS6coordinators">Open navigation drawer</string>
+    <string name="TS7coordinators">Open navigation drawer</string>
+    <string name="TS8coordinators">Open navigation drawer</string>
+    <string name="TS9coordinators">Open navigation drawer</string>
+    <string name="TS10coordinators">Open navigation drawer</string>
+    <string name="TS11coordinators">Open navigation drawer</string>
+    <string name="TS12coordinators">Open navigation drawer</string>
+    <string name="TS13coordinators">Open navigation drawer</string>
+    <string name="TS14coordinators">Open navigation drawer</string>
+    <string name="TS15coordinators">Open navigation drawer</string>
+    <string name="TS16coordinators">Open navigation drawer</string>
+    <string name="TS17coordinators">Open navigation drawer</string>
+    <string name="TS18coordinators">Open navigation drawer</string>
+
+
+    <!--STRING VALUES FOR NON-TECH EVENTS' VENUES-->
+
+    <string name="NT0venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="NT1venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="NT2venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="NT3venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="NT4venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="NT5venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="NT6venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="NT7venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="NT8venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="NT9venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="NT10venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="NT11venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="NT12venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="NT13venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="NT14venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="NT15venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="NT16venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="NT17venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="NT18venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="NT19venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="NT20venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="NT21venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="NT22venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="NT23venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="NT24venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="NT25venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+
+
+
+
+    <!--STRING VALUES FOR NON TECH EVENTS' RULES-->
+
+    <string name="NT0rules">Open navigation drawer</string>
+    <string name="NT1rules">Open navigation drawer</string>
+    <string name="NT2rules">Open navigation drawer</string>
+    <string name="NT3rules">Open navigation drawer</string>
+    <string name="NT4rules">Open navigation drawer</string>
+    <string name="NT5rules">Open navigation drawer</string>
+    <string name="NT6rules">Open navigation drawer</string>
+    <string name="NT7rules">Open navigation drawer</string>
+    <string name="NT8rules">Open navigation drawer</string>
+    <string name="NT9rules">Open navigation drawer</string>
+    <string name="NT10rules">Open navigation drawer</string>
+    <string name="NT11rules">Open navigation drawer</string>
+    <string name="NT12rules">Open navigation drawer</string>
+    <string name="NT13rules">Open navigation drawer</string>
+    <string name="NT14rules">Open navigation drawer</string>
+    <string name="NT15rules">Open navigation drawer</string>
+    <string name="NT16rules">Open navigation drawer</string>
+    <string name="NT17rules">Open navigation drawer</string>
+    <string name="NT18rules">Open navigation drawer</string>
+    <string name="NT19rules">Open navigation drawer</string>
+    <string name="NT20rules">Open navigation drawer</string>
+    <string name="NT21rules">Open navigation drawer</string>
+    <string name="NT22rules">Open navigation drawer</string>
+    <string name="NT23rules">Open navigation drawer</string>
+    <string name="NT24rules">Open navigation drawer</string>
+    <string name="NT25rules">Open navigation drawer</string>
+
+    <!--STRING VALUES FOR NON TECH EVENTS' DESCRIPTION-->
+
+    <string name="NT0description">Open navigation drawer</string>
+    <string name="NT1description">Open navigation drawer</string>
+    <string name="NT2description">Open navigation drawer</string>
+    <string name="NT3description">Open navigation drawer</string>
+    <string name="NT4description">Open navigation drawer</string>
+    <string name="NT5description">Open navigation drawer</string>
+    <string name="NT6description">Open navigation drawer</string>
+    <string name="NT7description">Open navigation drawer</string>
+    <string name="NT8description">Open navigation drawer</string>
+    <string name="NT9description">Open navigation drawer</string>
+    <string name="NT10description">Open navigation drawer</string>
+    <string name="NT11description">Open navigation drawer</string>
+    <string name="NT12description">Open navigation drawer</string>
+    <string name="NT13description">Open navigation drawer</string>
+    <string name="NT14description">Open navigation drawer</string>
+    <string name="NT15description">Open navigation drawer</string>
+    <string name="NT16description">Open navigation drawer</string>
+    <string name="NT17description">Open navigation drawer</string>
+    <string name="NT18description">Open navigation drawer</string>
+    <string name="NT19description">Open navigation drawer</string>
+    <string name="NT20description">Open navigation drawer</string>
+    <string name="NT21description">Open navigation drawer</string>
+    <string name="NT22description">Open navigation drawer</string>
+    <string name="NT23description">Open navigation drawer</string>
+    <string name="NT24description">Open navigation drawer</string>
+    <string name="NT25description">Open navigation drawer</string>
+
+    <!--STRING VALUES FOR NON-TECH EVENTS' COORDINATORS-->
+
+    <string name="NT0coordinators">Open navigation drawer</string>
+    <string name="NT1coordinators">Open navigation drawer</string>
+    <string name="NT2coordinators">Open navigation drawer</string>
+    <string name="NT3coordinators">Open navigation drawer</string>
+    <string name="NT4coordinators">Open navigation drawer</string>
+    <string name="NT5coordinators">Open navigation drawer</string>
+    <string name="NT6coordinators">Open navigation drawer</string>
+    <string name="NT7coordinators">Open navigation drawer</string>
+    <string name="NT8coordinators">Open navigation drawer</string>
+    <string name="NT9coordinators">Open navigation drawer</string>
+    <string name="NT10coordinators">Open navigation drawer</string>
+    <string name="NT11coordinators">Open navigation drawer</string>
+    <string name="NT12coordinators">Open navigation drawer</string>
+    <string name="NT13coordinators">Open navigation drawer</string>
+    <string name="NT14coordinators">Open navigation drawer</string>
+    <string name="NT15coordinators">Open navigation drawer</string>
+    <string name="NT16coordinators">Open navigation drawer</string>
+    <string name="NT17coordinators">Open navigation drawer</string>
+    <string name="NT18coordinators">Open navigation drawer</string>
+    <string name="NT19coordinators">Open navigation drawer</string>
+    <string name="NT20coordinators">Open navigation drawer</string>
+    <string name="NT21coordinators">Open navigation drawer</string>
+    <string name="NT22coordinators">Open navigation drawer</string>
+    <string name="NT23coordinators">Open navigation drawer</string>
+    <string name="NT24coordinators">Open navigation drawer</string>
+    <string name="NT25coordinators">Open navigation drawer</string>
+
+    <!--STRING VALUES FOR LITERARY EVENTS' VENUES-->
+
+    <string name="LR0venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="LR1venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="LR2venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="LR3venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="LR4venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="LR5venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="LR6venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="LR7venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="LR8venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="LR9venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+
+
+    <!--STRING VALUES FOR LITERARY EVENTS' RULES-->
+
+    <string name="LR0rules">Open navigation drawer</string>
+    <string name="LR1rules">Open navigation drawer</string>
+    <string name="LR2rules">Open navigation drawer</string>
+    <string name="LR3rules">Open navigation drawer</string>
+    <string name="LR4rules">Open navigation drawer</string>
+    <string name="LR5rules">Open navigation drawer</string>
+    <string name="LR6rules">Open navigation drawer</string>
+    <string name="LR7rules">Open navigation drawer</string>
+    <string name="LR8rules">Open navigation drawer</string>
+    <string name="LR9rules">Open navigation drawer</string>
+
+
+    <!--STRING VALUES FOR LITERARY EVENTS' DESCRIPTION-->
+
+    <string name="LR0description">Open navigation drawer</string>
+    <string name="LR1description">Open navigation drawer</string>
+    <string name="LR2description">Open navigation drawer</string>
+    <string name="LR3description">Open navigation drawer</string>
+    <string name="LR4description">Open navigation drawer</string>
+    <string name="LR5description">Open navigation drawer</string>
+    <string name="LR6description">Open navigation drawer</string>
+    <string name="LR7description">Open navigation drawer</string>
+    <string name="LR8description">Open navigation drawer</string>
+    <string name="LR9description">Open navigation drawer</string>
+
+    <!--STRING VALUES FOR LITERARY EVENTS' COORDINATORS-->
+
+    <string name="LR0coordinators">Open navigation drawer</string>
+    <string name="LR1coordinators">Open navigation drawer</string>
+    <string name="LR2coordinators">Open navigation drawer</string>
+    <string name="LR3coordinators">Open navigation drawer</string>
+    <string name="LR4coordinators">Open navigation drawer</string>
+    <string name="LR5coordinators">Open navigation drawer</string>
+    <string name="LR6coordinators">Open navigation drawer</string>
+    <string name="LR7coordinators">Open navigation drawer</string>
+    <string name="LR8coordinators">Open navigation drawer</string>
+    <string name="LR9coordinators">Open navigation drawer</string>
+
+
+    <!--STRING VALUES FOR SPORTS EVENTS' VENUES-->
+
+    <string name="SP0venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="SP1venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="SP2venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="SP3venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="SP4venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="SP5venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="SP6venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="SP7venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="SP8venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="SP9venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="SP10venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="SP11venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="SP12venue">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+
+    <!--STRING VALUES FOR SPORTS EVENTS' RULES-->
+
+    <string name="SP0rules">Open navigation drawer</string>
+    <string name="SP1rules">Open navigation drawer</string>
+    <string name="SP2rules">Open navigation drawer</string>
+    <string name="SP3rules">Open navigation drawer</string>
+    <string name="SP4rules">Open navigation drawer</string>
+    <string name="SP5rules">Open navigation drawer</string>
+    <string name="SP6rules">Open navigation drawer</string>
+    <string name="SP7rules">Open navigation drawer</string>
+    <string name="SP8rules">Open navigation drawer</string>
+    <string name="SP9rules">Open navigation drawer</string>
+    <string name="SP10rules">Open navigation drawer</string>
+    <string name="SP11rules">Open navigation drawer</string>
+    <string name="SP12rules">Open navigation drawer</string>
+
+    <!--STRING VALUES FOR SPORTS EVENTS' DESCRIPTION-->
+
+    <string name="SP0description">Open navigation drawer</string>
+    <string name="SP1description">Open navigation drawer</string>
+    <string name="SP2description">Open navigation drawer</string>
+    <string name="SP3description">Open navigation drawer</string>
+    <string name="SP4description">Open navigation drawer</string>
+    <string name="SP5description">Open navigation drawer</string>
+    <string name="SP6description">Open navigation drawer</string>
+    <string name="SP7description">Open navigation drawer</string>
+    <string name="SP8description">Open navigation drawer</string>
+    <string name="SP9description">Open navigation drawer</string>
+    <string name="SP10description">Open navigation drawer</string>
+    <string name="SP11description">Open navigation drawer</string>
+    <string name="SP12description">Open navigation drawer</string>
+
+    <!--STRING VALUES FOR SPORTS EVENTS' COORDINATORS-->
+
+    <string name="SP0coordinators">Open navigation drawer</string>
+    <string name="SP1coordinators">Open navigation drawer</string>
+    <string name="SP2coordinators">Open navigation drawer</string>
+    <string name="SP3coordinators">Open navigation drawer</string>
+    <string name="SP4coordinators">Open navigation drawer</string>
+    <string name="SP5coordinators">Open navigation drawer</string>
+    <string name="SP6coordinators">Open navigation drawer</string>
+    <string name="SP7coordinators">Open navigation drawer</string>
+    <string name="SP8coordinators">Open navigation drawer</string>
+    <string name="SP9coordinators">Open navigation drawer</string>
+    <string name="SP10coordinators">Open navigation drawer</string>
+    <string name="SP11coordinators">Open navigation drawer</string>
+    <string name="SP12coordinators">Open navigation drawer</string>
+
+
+
 </resources>

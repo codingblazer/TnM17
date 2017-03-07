@@ -93,7 +93,6 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:padding="15dp"
-                    android:text="@string/generalv"
                     android:textColor="#FFEB3B"
                     android:textSize="15dp"
 
@@ -158,7 +157,6 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:padding="15dp"
-                    android:text="@string/generalr"
                     android:textColor="#FFEB3B"
                     android:textSize="15dp"
 
@@ -209,18 +207,17 @@
                 android:background="@drawable/border3"
                 android:layout_centerHorizontal="true">
 
-                android:id="@+id/event6"
-                android:layout_width="246dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:padding="15dp"
-                android:text="@string/generald"
                 <TextView
                     android:textColor="#FFEB3B"
                     android:textSize="15dp"
 
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:id="@+id/event6"
+                    android:layout_width="246dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="15dp"
+ />
+
             </LinearLayout>
 
             <TextView
@@ -280,7 +277,6 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:padding="15dp"
-                    android:text="@string/generalc"
                     android:clickable="true"
                     android:autoLink="phone"
                     android:textColor="#FFEB3B"

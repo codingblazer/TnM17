@@ -142,16 +142,77 @@ public class SampleListFragment2 extends ScrollTabHolderFragment {
 
         mListView.setOnScrollListener(new OnScroll());
         mListView.setAdapter(new ArrayAdapter<String>(getActivity(), R.layout.list_item, android.R.id.text1, mListItems));
-        Log.i("Onclick","dsfdsfdsfds");
+
+        if(mPosition==0){
+
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
             public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
                 Intent intent1;
                 intent1=new Intent(getContext(),EventDetails.class);
+
+                intent1.putExtra("eventcode","CL"+ (position-1));
+                intent1.putExtra("eventName",mListItems.get(position-1));
                 startActivity(intent1);
             }
         });
+        }
+
+        else if(mPosition==1){
+            mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+                @Override
+                public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
+                    Intent intent1;
+                    intent1=new Intent(getContext(),EventDetails.class);
+                    intent1.putExtra("eventcode","TS"+ (position-1));
+                    intent1.putExtra("eventName",mListItems.get(position-1));
+                    startActivity(intent1);
+                }
+            });
+        }
+
+        else if(mPosition==2){
+            mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+                @Override
+                public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
+                    Intent intent1;
+                    intent1=new Intent(getContext(),EventDetails.class);
+                    intent1.putExtra("eventcode","NT"+ (position-1));
+                    intent1.putExtra("eventName",mListItems.get(position-1));
+                    startActivity(intent1);
+                }
+            });
+        }
+
+        else if(mPosition==3){
+            mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+                @Override
+                public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
+                    Intent intent1;
+                    intent1=new Intent(getContext(),EventDetails.class);
+                    intent1.putExtra("eventcode","LR"+ (position-1));
+                    intent1.putExtra("eventName",mListItems.get(position-1));
+                    startActivity(intent1);
+                }
+            });
+        }
+        else if(mPosition==4){
+            mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+                @Override
+                public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
+                    Intent intent1;
+                    intent1=new Intent(getContext(),EventDetails.class);
+                    intent1.putExtra("eventcode","SP"+ (position-1));
+                    intent1.putExtra("eventName",mListItems.get(position-1));
+                    startActivity(intent1);
+                }
+            });
+        }
 
 
 
