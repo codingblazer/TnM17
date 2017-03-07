@@ -2,17 +2,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/devpage"
     tools:context=".Home">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Developers Fragment"
-        android:textSize="25sp"
-        android:textColor="@color/white"
-        android:layout_marginTop="225dp"
-        android:id="@+id/textView"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:id="@+id/sachin"
+        android:text="Tinkering "
+        />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/himanshu"
+        android:text="ckscds"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/intro"
+        android:layout_toEndOf="@+id/intro"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bhavya"
+        android:text="ckdw.cew"
+        android:layout_below="@+id/himanshu"
+        android:layout_toRightOf="@+id/himanshu"
+        android:layout_toEndOf="@+id/himanshu"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="55dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/intro"
+        android:paddingBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/sachin"
+        android:layout_toEndOf="@+id/sachin"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="21dp" />
 </RelativeLayout>
