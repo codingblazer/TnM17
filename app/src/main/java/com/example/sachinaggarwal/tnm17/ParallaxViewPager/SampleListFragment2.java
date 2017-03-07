@@ -142,23 +142,16 @@ public class SampleListFragment2 extends ScrollTabHolderFragment {
 
         mListView.setOnScrollListener(new OnScroll());
         mListView.setAdapter(new ArrayAdapter<String>(getActivity(), R.layout.list_item, android.R.id.text1, mListItems));
-<<<<<<< Updated upstream
-        Log.i("Onclick","dsfdsfdsfds");
-=======
+
         if(mPosition==0){
->>>>>>> Stashed changes
+
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
             public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
                 Intent intent1;
                 intent1=new Intent(getContext(),EventDetails.class);
-<<<<<<< Updated upstream
-                startActivity(intent1);
-            }
-        });
 
-=======
                 intent1.putExtra("eventcode","CL"+ (position-1));
                 intent1.putExtra("eventName",mListItems.get(position-1));
                 startActivity(intent1);
@@ -220,7 +213,7 @@ public class SampleListFragment2 extends ScrollTabHolderFragment {
                 }
             });
         }
->>>>>>> Stashed changes
+
 
 
 //<<<<<<< HEAD

@@ -207,27 +207,17 @@
                 android:background="@drawable/border3"
                 android:layout_centerHorizontal="true">
 
-                android:id="@+id/event6"
-                android:layout_width="246dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:padding="15dp"
-                android:text="@string/generald"
                 <TextView
                     android:textColor="#FFEB3B"
                     android:textSize="15dp"
-<<<<<<< Updated upstream
 
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-=======
                     android:id="@+id/event6"
                     android:layout_width="246dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:padding="15dp"
  />
->>>>>>> Stashed changes
+
             </LinearLayout>
 
             <TextView

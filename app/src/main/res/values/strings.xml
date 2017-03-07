@@ -19,8 +19,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-<<<<<<< Updated upstream
-=======
+
     <!--string for our app-->
 
     <!--STRING VALUES FOR CULTURAL EVENTS' VENUES-->
@@ -815,5 +814,5 @@
     <string name="SP12coordinators">Open navigation drawer</string>
 
 
->>>>>>> Stashed changes
+
 </resources>
