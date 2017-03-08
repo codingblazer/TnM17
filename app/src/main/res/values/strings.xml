@@ -99,7 +99,12 @@
 
     <!--STRING VALUES FOR CULTURAL EVENTS' RULES-->
 
-    <string name="CL0rules">Open navigation drawer</string>
+    <string name="CL0rules">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
     <string name="CL1rules">Open navigation drawer</string>
     <string name="CL2rules">Open navigation drawer</string>
     <string name="CL3rules">Open navigation drawer</string>
@@ -114,7 +119,12 @@
 
     <!--STRING VALUES FOR CULTURAL EVENTS' DESCRIPTION-->
 
-    <string name="CL0description">Open navigation drawer</string>
+    <string name="CL0description">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
     <string name="CL1description">Open navigation drawer</string>
     <string name="CL2description">Open navigation drawer</string>
     <string name="CL3description">Open navigation drawer</string>
@@ -129,7 +139,12 @@
 
     <!--STRING VALUES FOR CULTURAL EVENTS' COORDINATORS-->
 
-    <string name="CL0coordinators">Open navigation drawer</string>
+    <string name="CL0coordinators">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-r</string>
     <string name="CL1coordinators">Open navigation drawer</string>
     <string name="CL2coordinators">Open navigation drawer</string>
     <string name="CL3coordinators">Open navigation drawer</string>
