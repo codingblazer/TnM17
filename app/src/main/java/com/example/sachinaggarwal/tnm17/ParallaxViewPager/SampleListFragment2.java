@@ -79,9 +79,6 @@ public class SampleListFragment2 extends ScrollTabHolderFragment {
     mListItems.add("Funk in Motion");
     mListItems.add("bhangra Dance");
 
-
-
-
     }
 
     @Override

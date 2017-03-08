@@ -1,6 +1,7 @@
 package com.example.sachinaggarwal.tnm17.ParallaxViewPager;
 
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -13,6 +14,7 @@ import android.view.View.OnTouchListener;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.AbsListView.OnScrollListener;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -20,6 +22,7 @@ import com.baoyz.swipemenulistview.SwipeMenu;
 import com.baoyz.swipemenulistview.SwipeMenuCreator;
 import com.baoyz.swipemenulistview.SwipeMenuItem;
 import com.baoyz.swipemenulistview.SwipeMenuListView;
+import com.example.sachinaggarwal.tnm17.EventDetails;
 import com.example.sachinaggarwal.tnm17.Fragments.Schedule;
 import com.example.sachinaggarwal.tnm17.R;
 
@@ -47,7 +50,7 @@ public class SampleListFragment extends ScrollTabHolderFragment {
     //    private ListView mListView;
     private SwipeMenuListView mList;
     private ArrayList<String> mListItems;
-
+    private ArrayList<String> mListCode;
     private int mPosition;
 
     //>>>>>>> parallax package
@@ -67,11 +70,62 @@ public class SampleListFragment extends ScrollTabHolderFragment {
 
 
         mListItems = new ArrayList<String>();
+        mListCode = new ArrayList<String>();
 
-        for (int i = 1; i <= 100; i++) {
-            mListItems.add(i + ". item - currnet page: " + (mPosition + 1));
-        }
+if(mPosition==0) {
+    mListItems.add("Choreo Elims");
+    mListItems.add("Street Dance");
+    mListItems.add("Desert Duel");
+    mListItems.add("Razzmatazz Elims");
+    mListItems.add("Rock Dance");
+    mListItems.add("Funk in Motion");
+    mListItems.add("bhangra Dance");
 
+    mListCode.add("CL2");
+    mListCode.add("TS4");
+    mListCode.add("NT5");
+    mListCode.add("SP2");
+    mListCode.add("CL2");
+    mListCode.add("TS3");
+    mListCode.add("SP6");
+
+
+}
+        else if(mPosition==1){
+    mListItems.add("Choreo Elims");
+    mListItems.add("Street Dance");
+    mListItems.add("Desert Duel");
+    mListItems.add("Razzmatazz Elims");
+    mListItems.add("Rock Dance");
+    mListItems.add("Funk in Motion");
+    mListItems.add("bhangra Dance");
+
+    mListCode.add("CL2");
+    mListCode.add("TS4");
+    mListCode.add("NT5");
+    mListCode.add("SP2");
+    mListCode.add("CL2");
+    mListCode.add("TS3");
+    mListCode.add("SP6");
+}
+
+else if(mPosition==2){
+    mListItems.add("Choreo Elims");
+    mListItems.add("Street Dance");
+    mListItems.add("Desert Duel");
+    mListItems.add("Razzmatazz Elims");
+    mListItems.add("Rock Dance");
+    mListItems.add("Funk in Motion");
+    mListItems.add("bhangra Dance");
+
+    mListCode.add("CL2");
+    mListCode.add("TS4");
+    mListCode.add("NT5");
+    mListCode.add("SP2");
+    mListCode.add("CL2");
+    mListCode.add("TS3");
+    mListCode.add("SP6");
+}
     }
 
     @Override
@@ -136,6 +190,50 @@ public class SampleListFragment extends ScrollTabHolderFragment {
         mListView.setOnScrollListener(new OnScroll());
         mListView.setAdapter(new ArrayAdapter<String>(getActivity(), R.layout.list_item, android.R.id.text1, mListItems));
 
+
+        if(mPosition==0){
+
+            mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+                @Override
+                public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
+                    Intent intent1;
+                    intent1=new Intent(getContext(),EventDetails.class);
+
+                    intent1.putExtra("eventcode",mListCode.get(position-1));
+                    intent1.putExtra("eventName",mListItems.get(position-1));
+                    startActivity(intent1);
+                }
+            });
+        }
+
+        else if(mPosition==1){
+            mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+                @Override
+                public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
+                    Intent intent1;
+                    intent1=new Intent(getContext(),EventDetails.class);
+                    intent1.putExtra("eventcode",mListCode.get(position-1));
+                    intent1.putExtra("eventName",mListItems.get(position-1));
+                    startActivity(intent1);
+                }
+            });
+        }
+
+        else if(mPosition==2){
+            mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+                @Override
+                public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
+                    Intent intent1;
+                    intent1=new Intent(getContext(),EventDetails.class);
+                    intent1.putExtra("eventcode",mListCode.get(position-1));
+                    intent1.putExtra("eventName",mListItems.get(position-1));
+                    startActivity(intent1);
+                }
+            });
+        }
         if(Schedule.NEEDS_PROXY){//in my moto phone(android 2.1),setOnScrollListener do not work well
             mListView.setOnTouchListener(new OnTouchListener() {
 

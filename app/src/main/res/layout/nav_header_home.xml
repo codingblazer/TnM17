@@ -9,13 +9,16 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
     android:orientation="vertical"
-    android:gravity="bottom">
+    android:gravity="bottom"
+    android:weightSum="1">
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="150dp"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:src="@drawable/splash"
-        android:id="@+id/imageView" />
+        android:src="@drawable/finalis"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.41" />
 
 </LinearLayout>
