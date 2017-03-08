@@ -505,9 +505,7 @@
 	    Second Price: Rs. 1000/-</string>
 
 
-
-
-    <!--STRING VALUES FOR NON TECH EVENTS' RULES-->
+	<!--STRING VALUES FOR NON TECH EVENTS' RULES-->
 
     <string name="NT0rules">Open navigation drawer</string>
     <string name="NT1rules">Open navigation drawer</string>
@@ -827,7 +825,6 @@
     <string name="SP10coordinators">Open navigation drawer</string>
     <string name="SP11coordinators">Open navigation drawer</string>
     <string name="SP12coordinators">Open navigation drawer</string>
-
 
 
 </resources>
