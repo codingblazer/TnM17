@@ -48,7 +48,7 @@
     <color name="back">#CFD8DC</color>
     <color name="navy">#000080</color>
     <color name="black">#78bff2</color>
-
+    <color name="cardview_dark_background">#FF202020</color>
     <color name="background_tab_pressed">#6633B5E5</color>
 
     <color name="blueminus">#FF1AFFF8</color>

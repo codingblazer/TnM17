@@ -4,13 +4,21 @@
 
     <application
         android:allowBackup="true"
+        android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".SplashActivity"
             android:noHistory="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
         <activity
@@ -26,14 +34,11 @@
         <activity
             android:name=".EventDetails"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity android:name=".HomeActivities.AboutUs">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".HomeActivities.AboutUs"></activity>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <activity android:name=".HomeActivities.FirstScreen_inHome">
+
         </activity>
-
     </application>
 
 </manifest>

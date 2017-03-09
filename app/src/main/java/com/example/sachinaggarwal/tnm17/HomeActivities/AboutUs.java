@@ -10,6 +10,6 @@ public class AboutUs extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.first_screen_in_home);
+        setContentView(R.layout.activity_about_us);
     }
 }
