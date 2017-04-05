@@ -184,13 +184,14 @@ public class SampleListFragment2 extends ScrollTabHolderFragment {
 
             @Override
             public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
-                Intent intent1;
+                if(position != 0)
+                {Intent intent1;
                 intent1=new Intent(getContext(),EventDetails.class);
 
                 intent1.putExtra("eventcode","CL"+ (position-1));
                 intent1.putExtra("eventName",mListItems.get(position-1));
                 startActivity(intent1);
-            }
+            }}
         });
         }
 
@@ -199,12 +200,13 @@ public class SampleListFragment2 extends ScrollTabHolderFragment {
 
                 @Override
                 public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
-                    Intent intent1;
+                    if(position != 0)
+                    {Intent intent1;
                     intent1=new Intent(getContext(),EventDetails.class);
                     intent1.putExtra("eventcode","TS"+ (position-1));
                     intent1.putExtra("eventName",mListItems.get(position-1));
                     startActivity(intent1);
-                }
+                }}
             });
         }
 
@@ -213,12 +215,13 @@ public class SampleListFragment2 extends ScrollTabHolderFragment {
 
                 @Override
                 public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
-                    Intent intent1;
+                    if(position != 0)
+                    {Intent intent1;
                     intent1=new Intent(getContext(),EventDetails.class);
                     intent1.putExtra("eventcode","NT"+ (position-1));
                     intent1.putExtra("eventName",mListItems.get(position-1));
                     startActivity(intent1);
-                }
+                }}
             });
         }
 
@@ -227,12 +230,13 @@ public class SampleListFragment2 extends ScrollTabHolderFragment {
 
                 @Override
                 public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
-                    Intent intent1;
+                    if(position != 0)
+                    {Intent intent1;
                     intent1=new Intent(getContext(),EventDetails.class);
                     intent1.putExtra("eventcode","LR"+ (position-1));
                     intent1.putExtra("eventName",mListItems.get(position-1));
                     startActivity(intent1);
-                }
+                }}
             });
         }
         else if(mPosition==4){
@@ -240,12 +244,13 @@ public class SampleListFragment2 extends ScrollTabHolderFragment {
 
                 @Override
                 public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
-                    Intent intent1;
+                    if(position != 0)
+                    {Intent intent1;
                     intent1=new Intent(getContext(),EventDetails.class);
                     intent1.putExtra("eventcode","LR"+ (position-1));
                     intent1.putExtra("eventName",mListItems.get(position-1));
                     startActivity(intent1);
-                }
+                }}
             });
         }
 

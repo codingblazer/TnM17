@@ -214,13 +214,15 @@ else if(mPosition==2){
 
                 @Override
                 public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
-                    Intent intent1;
-                    intent1=new Intent(getContext(),EventDetails.class);
 
-                    intent1.putExtra("eventcode",mListCode.get(position-1));
-                    intent1.putExtra("eventName",mListItems.get(position-1));
-                    startActivity(intent1);
-                }
+                    if(position != 0) {
+                        Intent intent1;
+                        intent1 = new Intent(getContext(), EventDetails.class);
+
+                        intent1.putExtra("eventcode", mListCode.get(position - 1));
+                        intent1.putExtra("eventName", mListItems.get(position - 1));
+                        startActivity(intent1);
+                    }    }
             });
         }
 
@@ -229,12 +231,13 @@ else if(mPosition==2){
 
                 @Override
                 public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
-                    Intent intent1;
-                    intent1=new Intent(getContext(),EventDetails.class);
-                    intent1.putExtra("eventcode",mListCode.get(position-1));
-                    intent1.putExtra("eventName",mListItems.get(position-1));
-                    startActivity(intent1);
-                }
+                    if(position != 0) {
+                        Intent intent1;
+                        intent1 = new Intent(getContext(), EventDetails.class);
+                        intent1.putExtra("eventcode", mListCode.get(position - 1));
+                        intent1.putExtra("eventName", mListItems.get(position - 1));
+                        startActivity(intent1);
+                    }    }
             });
         }
 
@@ -243,12 +246,13 @@ else if(mPosition==2){
 
                 @Override
                 public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
-                    Intent intent1;
-                    intent1=new Intent(getContext(),EventDetails.class);
-                    intent1.putExtra("eventcode",mListCode.get(position-1));
-                    intent1.putExtra("eventName",mListItems.get(position-1));
-                    startActivity(intent1);
-                }
+                    if(position != 0) {
+                        Intent intent1;
+                        intent1 = new Intent(getContext(), EventDetails.class);
+                        intent1.putExtra("eventcode", mListCode.get(position - 1));
+                        intent1.putExtra("eventName", mListItems.get(position - 1));
+                        startActivity(intent1);
+                    }     }
             });
         }
         if(Schedule.NEEDS_PROXY){//in my moto phone(android 2.1),setOnScrollListener do not work well
