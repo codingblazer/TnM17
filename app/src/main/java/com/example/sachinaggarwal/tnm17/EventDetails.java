@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.lang.reflect.Field;
@@ -53,7 +54,22 @@ public class EventDetails  extends AppCompatActivity {
         Log.i("stringvalue", stringVenue);
         String venuedata = getStringResourceByName(stringVenue);
         Log.i("venuedata1", venuedata);
+        ImageView expandimage = (ImageView) findViewById(R.id.expandedImage);
 
+        Log.i("sachin",""+eventcode.charAt(0));
+        if(eventcode.charAt(0)=='N') {
+         expandimage.setImageDrawable(getResources().getDrawable(R.drawable.sports));
+            Log.i("sachin","in");
+        }
+        else if (eventcode.charAt(0)=='L'){
+            expandimage.setImageDrawable(getResources().getDrawable(R.drawable.literary));
+        }
+        else if (eventcode.charAt(0)=='T'){
+            expandimage.setImageDrawable(getResources().getDrawable(R.drawable.tech));
+        }
+        else if (eventcode.charAt(0)=='C'){
+            expandimage.setImageDrawable(getResources().getDrawable(R.drawable.cultural));
+        }
         String stringRules = eventcode + "rules";
         String rulesdata = getStringResourceByName(stringRules);
 

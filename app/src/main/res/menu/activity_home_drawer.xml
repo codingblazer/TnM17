@@ -11,14 +11,7 @@
             android:id="@+id/events"
             android:icon="@drawable/events"
             android:title="Events" />
-        <item
-            android:id="@+id/schedule"
-            android:icon="@drawable/schedule"
-            android:title="Schedule" />
-        <item
-            android:id="@+id/favourites"
-            android:icon="@drawable/favourites"
-            android:title="Favourites" />
+
 
         <item
             android:id="@+id/map"

@@ -31,7 +31,7 @@
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/pic0"
+            android:background="@drawable/logofull"
             android:gravity="center" />
 
         <com.example.sachinaggarwal.tnm17.ParallaxViewPager.PagerSlidingTabStrip

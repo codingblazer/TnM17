@@ -4,4 +4,6 @@
     android:layout_height="fill_parent"
     android:divider="#ddd"
     android:dividerHeight="1px"
-    android:scrollbars="none" />
+    android:scrollbars="none"
+    android:layout_marginLeft="20dp"
+    android:paddingLeft="20dp"/>

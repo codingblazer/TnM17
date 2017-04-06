@@ -16,12 +16,12 @@
         android:gravity="center"
         android:textColor="#FF0000" />
 
-    <!--<Button-->
-        <!--android:layout_width="20dp"-->
-        <!--android:layout_height="20dp"-->
-        <!--android:layout_margin="10dp"-->
-        <!--android:id="@+id/back_button"-->
-        <!--android:background="@drawable/back_button" />-->
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_margin="10dp"
+        android:id="@+id/back_button"
+        android:background="@drawable/back_button" />
 
     <FrameLayout
         android:id="@+id/header"
@@ -31,7 +31,7 @@
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/pic0"
+            android:background="@drawable/logofull"
             android:gravity="center" />
 
         <com.example.sachinaggarwal.tnm17.ParallaxViewPager.PagerSlidingTabStrip
@@ -39,7 +39,7 @@
             android:layout_width="match_parent"
             android:layout_height="48dip"
             android:layout_gravity="bottom"
-            android:background="#0072C6" />
+            android:background="#14283C" />
     </FrameLayout>
 
 </FrameLayout>

@@ -78,7 +78,7 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
         nvDrawer = (NavigationView) findViewById(R.id.nav_view);
         nvDrawer.setNavigationItemSelectedListener(this);
 
-        fragment = new Favourite();
+        fragment = new HomeFragment();
 
         android.support.v4.app.FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
@@ -103,17 +103,17 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
                 startActivity(intent);
                 break;
 
-            case R.id.schedule:
-                Intent intent2=new Intent(this,Schedule.class);
-                startActivity(intent2);
-//                lastFragment = new Schedule();
-//                fragment = new Schedule();
-                break;
-
-            case R.id.favourites:
-                lastFragment = new Favourite();
-                fragment = new Favourite();
-                break;
+//            case R.id.schedule:
+//                Intent intent2=new Intent(this,Schedule.class);
+//                startActivity(intent2);
+////                lastFragment = new Schedule();
+////                fragment = new Schedule();
+//                break;
+//
+//            case R.id.favourites:
+//                lastFragment = new Favourite();
+//                fragment = new Favourite();
+//                break;
 
             case R.id.map:
                 Intent intent3=new Intent(this,MapFragment.class);
