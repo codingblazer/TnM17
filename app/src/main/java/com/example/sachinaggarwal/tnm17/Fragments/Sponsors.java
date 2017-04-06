@@ -22,7 +22,7 @@ import com.example.sachinaggarwal.tnm17.R;
 
 public class Sponsors extends Fragment {
     private Bitmap mBitmap;
-    int [] DEVELOPER_PICS={R.drawable.sponsor1,R.drawable.sponsor5,R.drawable.sponsor3,R.drawable.sponsor4};
+    int [] DEVELOPER_PICS={R.drawable.pic15,R.drawable.pic01,R.drawable.pic03,R.drawable.pic07,R.drawable.pic08,R.drawable.pic09,R.drawable.pic11,R.drawable.pic13,R.drawable.pic18};
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -34,25 +34,32 @@ public class Sponsors extends Fragment {
 
 //            Bitmap pics= BitmapFactory.decodeResource(getResources(), DEVELOPER_PICS[3]);
 //            pics=getCircularBitmapWithWhiteBorder(pics,100);
-        mBitmap = BitmapFactory.decodeResource(getResources(), DEVELOPER_PICS[0]);
 
-        RoundedBitmapDrawable roundedImageDrawable = createRoundedBitmapImageDrawableWithBorder(mBitmap);
+
+        RoundedBitmapDrawable roundedImageDrawable1 = createRoundedBitmapImageDrawableWithBorder(BitmapFactory.decodeResource(getResources(), DEVELOPER_PICS[1]));
         ImageView imageView1= (ImageView) view.findViewById(R.id.imageView1);
-        imageView1.setImageDrawable(roundedImageDrawable);
+        imageView1.setImageDrawable(getResources().getDrawable(DEVELOPER_PICS[1]));
+        RoundedBitmapDrawable roundedImageDrawable2 = createRoundedBitmapImageDrawableWithBorder(BitmapFactory.decodeResource(getResources(), DEVELOPER_PICS[2]));
         ImageView imageView2= (ImageView) view.findViewById(R.id.imageView2);
-        imageView2.setImageDrawable(roundedImageDrawable);
+        imageView2.setImageDrawable(getResources().getDrawable(DEVELOPER_PICS[2]));
+        RoundedBitmapDrawable roundedImageDrawable3 = createRoundedBitmapImageDrawableWithBorder(BitmapFactory.decodeResource(getResources(), DEVELOPER_PICS[3]));
         ImageView imageView3= (ImageView) view.findViewById(R.id.imageView3);
-        imageView3.setImageDrawable(roundedImageDrawable);
+        imageView3.setImageDrawable(getResources().getDrawable(DEVELOPER_PICS[3]));
+        RoundedBitmapDrawable roundedImageDrawable4 = createRoundedBitmapImageDrawableWithBorder(BitmapFactory.decodeResource(getResources(), DEVELOPER_PICS[4]));
         ImageView imageView4= (ImageView) view.findViewById(R.id.imageView4);
-        imageView4.setImageDrawable(roundedImageDrawable);
+        imageView4.setImageDrawable(getResources().getDrawable(DEVELOPER_PICS[4]));
+        RoundedBitmapDrawable roundedImageDrawable5 = createRoundedBitmapImageDrawableWithBorder(BitmapFactory.decodeResource(getResources(), DEVELOPER_PICS[5]));
         ImageView imageView5= (ImageView) view.findViewById(R.id.imageView5);
-        imageView5.setImageDrawable(roundedImageDrawable);
+        imageView5.setImageDrawable(getResources().getDrawable(DEVELOPER_PICS[5]));
+        RoundedBitmapDrawable roundedImageDrawable6 = createRoundedBitmapImageDrawableWithBorder(BitmapFactory.decodeResource(getResources(), DEVELOPER_PICS[6]));
         ImageView imageView6= (ImageView) view.findViewById(R.id.imageView6);
-        imageView6.setImageDrawable(roundedImageDrawable);
+        imageView6.setImageDrawable(getResources().getDrawable(DEVELOPER_PICS[6]));
+        RoundedBitmapDrawable roundedImageDrawable7 = createRoundedBitmapImageDrawableWithBorder(BitmapFactory.decodeResource(getResources(), DEVELOPER_PICS[7]));
         ImageView imageView7= (ImageView) view.findViewById(R.id.imageView7);
-        imageView7.setImageDrawable(roundedImageDrawable);
+        imageView7.setImageDrawable(getResources().getDrawable(DEVELOPER_PICS[7]));
+        RoundedBitmapDrawable roundedImageDrawable8 = createRoundedBitmapImageDrawableWithBorder(BitmapFactory.decodeResource(getResources(), DEVELOPER_PICS[8]));
         ImageView imageView8= (ImageView) view.findViewById(R.id.imageView8);
-        imageView8.setImageDrawable(roundedImageDrawable);
+        imageView8.setImageDrawable(getResources().getDrawable(DEVELOPER_PICS[8]));
 //        // Instance of ImageAdapter Class
 //        gridView.setAdapter(new ImageAdapter(getContext()));
         return view;

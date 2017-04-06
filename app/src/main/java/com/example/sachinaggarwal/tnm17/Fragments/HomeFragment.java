@@ -35,10 +35,8 @@ public class HomeFragment extends Fragment implements BaseSliderView.OnSliderCli
 
         mDemoSlider = (SliderLayout) view.findViewById(R.id.slider);
         HashMap<String,Integer> file_maps = new HashMap<String, Integer>();
-        file_maps.put("AboutUs", R.drawable.og2);
-        file_maps.put("ChiefGuests",R.drawable.download);
-        file_maps.put("Gallery",R.drawable.gal);
-        file_maps.put("Intro",R.drawable.logofull);
+        file_maps.put("Gallery",R.drawable.collage);
+        file_maps.put("Intro",R.drawable.maitive);
 
         for(String name : file_maps.keySet()){
             TextSliderView textSliderView = new TextSliderView(getActivity());

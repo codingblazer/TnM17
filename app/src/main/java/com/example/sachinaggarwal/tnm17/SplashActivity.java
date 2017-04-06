@@ -88,7 +88,7 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
                 textView.setAnimateType(HTextViewType.SPARKLE);
-                textView.animateText(Html.fromHtml("23rd - 25th March, 2017"));
+                textView.animateText(Html.fromHtml("6th - 8th April, 2017"));
             }
         }, 3000);
         final Handler wait3 = new Handler();
