@@ -40,16 +40,13 @@
         <activity
             android:name=".EventDetails"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
-<<<<<<< Updated upstream
 
         <activity
             android:name=".Fragments.MapFragment"
             android:theme="@style/AppTheme"></activity>
-=======
         <activity android:name=".HomeActivities.AboutUs"></activity>
 
         <activity android:name=".HomeActivities.FirstScreen_inHome">
->>>>>>> Stashed changes
 
         </activity>
     </application>
