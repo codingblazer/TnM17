@@ -56,7 +56,7 @@ public class HomeFragment extends Fragment implements BaseSliderView.OnSliderCli
 
             mDemoSlider.addSlider(textSliderView);
         }
-        mDemoSlider.setPresetTransformer(SliderLayout.Transformer.FlipPage);
+        mDemoSlider.setPresetTransformer(SliderLayout.Transformer.Stack);
         //or use flip horizontal, fade, tablet,rotate down, Zoom out slide were looking good to me
         mDemoSlider.setPresetIndicator(SliderLayout.PresetIndicators.Center_Bottom);
         mDemoSlider.setCustomAnimation(new DescriptionAnimation());
