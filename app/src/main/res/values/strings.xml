@@ -24,89 +24,60 @@
 
     <!--STRING VALUES FOR CULTURAL EVENTS' VENUES-->
 
-    <string name="CL0venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="CL1venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="CL2venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-r</string>
-    <string name="CL3venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="CL4venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="CL5venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="CL6venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="CL7venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="CL8venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="CL9venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="CL10venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="CL11venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
+    <string name="CL0venue">Venue: not decided\n\n
+
+Duration: 10:00AM - 12:00PM (2hr)\n\n
+
+Registration Fees: Free\n\n
+
+Prize: ₹ 500\n\n</string>
+    <string name="CL1venue">Venue: not decided\n\n
+
+Duration: 10:00AM - 12:00PM (2hr)\n\n
+
+Registration Fees: Free\n\n
+
+Prize: ₹ 500\n\n</string>
+    <string name="CL2venue">Venue: not decided\n\n
+
+Duration: 10:00AM - 12:00PM (2hr)\n\n
+
+Registration Fees: Free\n\n
+
+Prize: ₹ 500\n\n</string>
+    <string name="CL3venue">Venue: not decided\n\n
+
+Duration: 10:00AM - 12:00PM (2hr)\n\n
+
+Registration Fees: Free\n\n
+
+Prize: ₹ 500\n\n</string>
+    <string name="CL4venue">Venue: not decided\n\n
+
+Duration: 10:00AM - 12:00PM (2hr)\n\n
+
+Registration Fees: Free\n\n
+
+Prize: ₹ 500\n\n</string>
+    <string name="CL5venue">Venue: not decided\n\n
+
+Duration: 10:00AM - 12:00PM (2hr)\n\n
+
+Registration Fees: Free\n\n
+
+Prize: ₹ 500\n\n</string>
 
     <!--STRING VALUES FOR CULTURAL EVENTS' RULES-->
 
-    <string name="CL0rules">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="CL1rules">Open navigation drawer</string>
-    <string name="CL2rules">Open navigation drawer</string>
+    <string name="CL1rules">1. Registration to be done first.\n\n
+2. There will be short audition thing to shortlist the participants. (Round 1)\n\n
+3. Now, teams of 3 participants in each will be made. Using the talent they have to impress the audience there and collect the amount.\n\n
+4. They need to get the audience attracted towards them. One coordinator will be given to each team.\n\n
+5. After the time is over, they need to report to the coordinators for evaluation.</string>\n\n
+    <string name="CL0rules">1. Each team can have maximum 2 member\n\n
+2. Platform -C/C++\n\n
+3. Teams will be judged on their accuracy as well as their efficiency.\n\n</string>
+    <string name="CL2rules">fasfasfasfas</string>
     <string name="CL3rules">Open navigation drawer</string>
     <string name="CL4rules">Open navigation drawer</string>
     <string name="CL5rules">Open navigation drawer</string>
@@ -119,13 +90,10 @@
 
     <!--STRING VALUES FOR CULTURAL EVENTS' DESCRIPTION-->
 
-    <string name="CL0description">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="CL1description">Open navigation drawer</string>
+    <string name="CL0description">Talent is not all about juggling balls or eating fire. For me, talent is simply doing the best with what we have. Kindness could be a talent. So could be survival.
+It is easy to think that talent leading to riches is the end goal. But using your talents need not be a competitive catapult - it can be a little joy for a full weekend. Or a stress buster on a busy day.
+It is the mere act of pursuing something to the best of your ability every day that makes you unique.</string>
+    <string name="CL1description">The event is all about playing a 1 vs 1 quiz on a mobile app “QuizUp”. The quiz consists of seven questions related to a selected topic and 10 seconds is allotted for answering each question. The quick correct response will get higher points in comparison to a slower response and no points for a wrong answer. At the end of the game the score of each player will be displayed on the screen according to which a winner will be declared.</string>
     <string name="CL2description">Open navigation drawer</string>
     <string name="CL3description">Open navigation drawer</string>
     <string name="CL4description">Open navigation drawer</string>
@@ -139,13 +107,10 @@
 
     <!--STRING VALUES FOR CULTURAL EVENTS' COORDINATORS-->
 
-    <string name="CL0coordinators">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-r</string>
-    <string name="CL1coordinators">Open navigation drawer</string>
+    <string name="CL0coordinators">Name: Shivani singh\n\n
+		Email: shivanisingh.seno@gmail.com\n\n</string>
+    <string name="CL1coordinators">Name: Shivani singh\n\n
+		Email: shivanisingh.seno@gmail.com\n\n</string>
     <string name="CL2coordinators">Open navigation drawer</string>
     <string name="CL3coordinators">Open navigation drawer</string>
     <string name="CL4coordinators">Open navigation drawer</string>
@@ -160,42 +125,48 @@
     <!--STRING VALUES FOR TECHSURGE EVENTS' VENUES-->
 
 
-    <string name="TS0venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="TS1venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="TS2venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="TS3venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="TS4venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="TS5venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
+    <string name="TS0venue">Venue: not decided\n\n
+
+Duration: 10:00AM - 12:00PM (2hr)\n\n
+
+Registration Fees: Free\n\n
+
+Prize: ₹ 500\n\n</string>
+    <string name="TS1venue">Venue: not decided\n\n
+
+Duration: 10:00AM - 12:00PM (2hr)\n\n
+
+Registration Fees: Free\n\n
+
+Prize: ₹ 500\n\n</string>
+    <string name="TS2venue">Venue: not decided\n\n
+
+Duration: 10:00AM - 12:00PM (2hr)\n\n
+
+Registration Fees: Free\n\n
+
+Prize: ₹ 500\n\n</string>
+    <string name="TS3venue">Venue: not decided\n\n
+
+Duration: 10:00AM - 12:00PM (2hr)\n\n
+
+Registration Fees: Free\n\n
+
+Prize: ₹ 500\n\n</string>
+    <string name="TS4venue">Venue: not decided\n\n
+
+Duration: 10:00AM - 12:00PM (2hr)\n\n
+
+Registration Fees: Free\n\n
+
+Prize: ₹ 500\n\n</string>
+    <string name="TS5venue">Venue: not decided\n\n
+
+Duration: 10:00AM - 12:00PM (2hr)\n\n
+
+Registration Fees: Free\n\n
+
+Prize: ₹ 500\n\n</string>
     <string name="TS6venue">Time: 11.30am - 1.30pm\n\n
 	    Place: HRD TR-1\n\n
 	    Date: 18th April\n\n
@@ -347,42 +318,48 @@
 
     <!--STRING VALUES FOR NON-TECH EVENTS' VENUES-->
 
-    <string name="NT0venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="NT1venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="NT2venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="NT3venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="NT4venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="NT5venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
+    <string name="NT0venue">Venue: not decided\n\n
+
+Duration: 10:00AM - 12:00PM (2hr)\n\n
+
+Registration Fees: Free\n\n
+
+Prize: ₹ 500\n\n</string>
+    <string name="NT1venue">Venue: not decided\n\n
+
+Duration: 10:00AM - 12:00PM (2hr)\n\n
+
+Registration Fees: Free\n\n
+
+Prize: ₹ 500\n\n</string>
+    <string name="NT2venue">Venue: not decided\n\n
+
+Duration: 10:00AM - 12:00PM (2hr)\n\n
+
+Registration Fees: Free\n\n
+
+Prize: ₹ 500\n\n</string>
+    <string name="NT3venue">Venue: not decided\n\n
+
+Duration: 10:00AM - 12:00PM (2hr)\n\n
+
+Registration Fees: Free\n\n
+
+Prize: ₹ 500\n\n</string>
+    <string name="NT4venue">Venue: not decided\n\n
+
+Duration: 10:00AM - 12:00PM (2hr)\n\n
+
+Registration Fees: Free\n\n
+
+Prize: ₹ 500\n\n</string>
+    <string name="NT5venue">Venue: not decided\n\n
+
+Duration: 10:00AM - 12:00PM (2hr)\n\n
+
+Registration Fees: Free\n\n
+
+Prize: ₹ 500\n\n</string>
     <string name="NT6venue">Time: 11.30am - 1.30pm\n\n
 	    Place: HRD TR-1\n\n
 	    Date: 18th April\n\n
@@ -596,42 +573,48 @@
 
     <!--STRING VALUES FOR LITERARY EVENTS' VENUES-->
 
-    <string name="LR0venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="LR1venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="LR2venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="LR3venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="LR4venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
-    <string name="LR5venue">Time: 11.30am - 1.30pm\n\n
-	    Place: HRD TR-1\n\n
-	    Date: 18th April\n\n
-	    Registration Fees: Rs. 50/-\n\n
-	    First Price: Rs. 2000/-\n\n
-	    Second Price: Rs. 1000/-</string>
+    <string name="LR0venue">Venue: not decided\n\n
+
+Duration: 10:00AM - 12:00PM (2hr)\n\n
+
+Registration Fees: Free\n\n
+
+Prize: ₹ 500\n\n</string>
+    <string name="LR1venue">Venue: not decided\n\n
+
+Duration: 10:00AM - 12:00PM (2hr)\n\n
+
+Registration Fees: Free\n\n
+
+Prize: ₹ 500\n\n</string>
+    <string name="LR2venue">Venue: not decided\n\n
+
+Duration: 10:00AM - 12:00PM (2hr)\n\n
+
+Registration Fees: Free\n\n
+
+Prize: ₹ 500\n\n</string>
+    <string name="LR3venue">Venue: not decided\n\n
+
+Duration: 10:00AM - 12:00PM (2hr)\n\n
+
+Registration Fees: Free\n\n
+
+Prize: ₹ 500\n\n</string>
+    <string name="LR4venue">Venue: not decided\n\n
+
+Duration: 10:00AM - 12:00PM (2hr)\n\n
+
+Registration Fees: Free\n\n
+
+Prize: ₹ 500\n\n</string>
+    <string name="LR5venue">Venue: not decided\n\n
+
+Duration: 10:00AM - 12:00PM (2hr)\n\n
+
+Registration Fees: Free\n\n
+
+Prize: ₹ 500\n\n</string>
     <string name="LR6venue">Time: 11.30am - 1.30pm\n\n
 	    Place: HRD TR-1\n\n
 	    Date: 18th April\n\n

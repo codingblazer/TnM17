@@ -170,7 +170,7 @@ public class Events extends FragmentActivity implements ScrollTabHolder, ViewPag
     public class PagerAdapter extends FragmentPagerAdapter {
 
         private SparseArrayCompat<ScrollTabHolder> mScrollTabHolders;
-        private final String[] TITLES = {"DANCE", "DRAMA", "MUSIC","QUIZZING","MISC","ORATORY","ART","LITERATURE"};
+        private final String[] TITLES = {"Cultural", "Techsurge", "Non-Tech","Literary"};
         private ScrollTabHolder mListener;
 
         public PagerAdapter(FragmentManager fm) {

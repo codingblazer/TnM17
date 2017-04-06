@@ -71,13 +71,47 @@ public class SampleListFragment2 extends ScrollTabHolderFragment {
         mListItems = new ArrayList<String>();
 
 
-    mListItems.add("Choreo Elims");
-    mListItems.add("Street Dance");
-    mListItems.add("Desert Duel");
-    mListItems.add("Razzmatazz Elims");
-    mListItems.add("Rock Dance");
-    mListItems.add("Funk in Motion");
-    mListItems.add("bhangra Dance");
+        if(mPosition==0) {
+            mListItems.add("Be Like Nolan");
+            mListItems.add("Be You");
+            mListItems.add("Let’s QuizUp");
+            mListItems.add("Pixelate");
+            mListItems.add("Contrast");
+            mListItems.add("Moving Pictures");
+        }
+        else if(mPosition==1){
+            mListItems.add("Choreo Elims");
+            mListItems.add("Street Dance");
+            mListItems.add("Desert Duel");
+            mListItems.add("Razzmatazz Elims");
+            mListItems.add("Rock Dance");
+            mListItems.add("Funk in Motion");
+            mListItems.add("bhangra Dance");
+
+
+        }
+        else if(mPosition==2){
+            mListItems.add("Choreo Elims");
+            mListItems.add("Street Dance");
+            mListItems.add("Desert Duel");
+            mListItems.add("Razzmatazz Elims");
+            mListItems.add("Rock Dance");
+            mListItems.add("Funk in Motion");
+            mListItems.add("bhangra Dance");
+
+
+        }
+        else if(mPosition==3){
+            mListItems.add("Choreo Elims");
+            mListItems.add("Street Dance");
+            mListItems.add("Desert Duel");
+            mListItems.add("Razzmatazz Elims");
+            mListItems.add("Rock Dance");
+            mListItems.add("Funk in Motion");
+            mListItems.add("bhangra Dance");
+
+
+        }
 
     }
 

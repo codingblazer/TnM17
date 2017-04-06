@@ -68,7 +68,6 @@ public class SampleListFragment extends ScrollTabHolderFragment {
         super.onCreate(savedInstanceState);
         mPosition = getArguments().getInt(ARG_POSITION);
 
-
         mListItems = new ArrayList<String>();
         mListCode = new ArrayList<String>();
 
@@ -114,8 +113,7 @@ else if(mPosition==2){
     mListItems.add("Street Dance");
     mListItems.add("Desert Duel");
     mListItems.add("Razzmatazz Elims");
-    mListItems.add("Rock Dance");
-    mListItems.add("Funk in Motion");
+    mListItems.add("Rock Dance");    mListItems.add("Funk in Motion");
     mListItems.add("bhangra Dance");
 
     mListCode.add("CL2");
