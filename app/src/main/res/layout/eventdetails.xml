@@ -23,7 +23,7 @@
                 android:id="@+id/expandedImage"
                 android:layout_width="wrap_content"
                 android:layout_height="196dp"
-                android:src="@drawable/chunt"
+
 
                 android:scaleType="centerCrop"
                 app:layout_collapseMode="parallax"
