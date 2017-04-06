@@ -1,49 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/devpage"
-    tools:context=".Home">
+    android:layout_marginTop="50dp"
+    android:paddingBottom="8dp">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/sachin"
-        android:text="Tinkering "
-        />
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="100dp"
+        android:id="@+id/developerList"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp">
+    </ListView>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/himanshu"
-        android:text="ckscds"
-        android:layout_centerVertical="true"
-        android:layout_toRightOf="@+id/intro"
-        android:layout_toEndOf="@+id/intro"
-        android:layout_marginLeft="18dp"
-        android:layout_marginStart="18dp" />
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical">-->
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/bhavya"
-        android:text="ckdw.cew"
-        android:layout_below="@+id/himanshu"
-        android:layout_toRightOf="@+id/himanshu"
-        android:layout_toEndOf="@+id/himanshu"
-        android:layout_marginLeft="60dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="55dp" />
+        <!--<RelativeLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1">-->
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/intro"
-        android:paddingBottom="30dp"
-        android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@+id/sachin"
-        android:layout_toEndOf="@+id/sachin"
-        android:layout_marginLeft="40dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginBottom="21dp" />
+            <!--<ImageView-->
+                <!--android:id="@+id/DevImage"-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="80dp"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:layout_marginBottom="5dp"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginStart="20dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:background="@drawable/round_button"-->
+                <!--android:padding="2dp"-->
+                <!--android:src="@drawable/himanshu" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/DevName"-->
+                <!--android:layout_width="280dp"-->
+                <!--android:layout_height="80dp"-->
+                <!--android:layout_alignTop="@+id/DevImage"-->
+                <!--android:layout_marginLeft="16dp"-->
+                <!--android:layout_marginStart="16dp"-->
+                <!--android:layout_toEndOf="@+id/DevImage"-->
+                <!--android:layout_toRightOf="@+id/DevImage"-->
+                <!--android:gravity="center_horizontal"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:text="Himanshu Singhal"-->
+                <!--android:textSize="25dp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/contri"-->
+                <!--android:layout_width="280dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignLeft="@+id/DevName"-->
+                <!--android:layout_alignStart="@+id/DevName"-->
+                <!--android:layout_marginTop="40dp"-->
+                <!--android:gravity="center"-->
+                <!--android:text="UI/UX &amp; Back end Developer"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textSize="18dp" />-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/DevImage2"-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="80dp"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:layout_marginBottom="5dp"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginStart="20dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:background="@drawable/round_button"-->
+                <!--android:padding="2dp"-->
+                <!--android:src="@drawable/himanshu" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/DevName2"-->
+                <!--android:layout_width="280dp"-->
+                <!--android:layout_height="80dp"-->
+                <!--android:layout_alignTop="@+id/DevImage2"-->
+                <!--android:layout_marginLeft="16dp"-->
+                <!--android:layout_marginStart="16dp"-->
+                <!--android:layout_toEndOf="@+id/DevImage2"-->
+                <!--android:layout_toRightOf="@+id/DevImage2"-->
+                <!--android:gravity="center_horizontal"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:text="Sachin Aggarwal"-->
+                <!--android:textSize="25dp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/contri2"-->
+                <!--android:layout_width="280dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignLeft="@+id/DevName2"-->
+                <!--android:layout_alignStart="@+id/DevName2"-->
+                <!--android:layout_marginTop="40dp"-->
+                <!--android:text="Back-End developer"-->
+                <!--android:gravity="center"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textSize="18dp" />-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/DevImage3"-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="80dp"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:layout_marginBottom="5dp"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginStart="20dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:background="@drawable/round_button"-->
+                <!--android:padding="2dp"-->
+                <!--android:src="@drawable/himanshu" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/DevName3"-->
+                <!--android:layout_width="280dp"-->
+                <!--android:layout_height="80dp"-->
+                <!--android:layout_alignTop="@+id/DevImage3"-->
+                <!--android:layout_marginLeft="16dp"-->
+                <!--android:layout_marginStart="16dp"-->
+                <!--android:text="Bhavya Sapra"-->
+                <!--android:layout_toEndOf="@+id/DevImage3"-->
+                <!--android:layout_toRightOf="@+id/DevImage3"-->
+                <!--android:gravity="center_horizontal"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textSize="25dp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/contri3"-->
+                <!--android:layout_width="280dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignLeft="@+id/DevName3"-->
+                <!--android:layout_alignStart="@+id/DevName3"-->
+                <!--android:layout_marginTop="40dp"-->
+                <!--android:gravity="center"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:text="Back-End developer"-->
+                <!--android:textSize="18dp" />-->
+
+        <!--</RelativeLayout>-->
+
+
+    <!--</LinearLayout>-->
+
 </RelativeLayout>
