@@ -77,10 +77,22 @@ Prize: ₹ 500\n\n</string>
     <string name="CL0rules">1. Each team can have maximum 2 member\n\n
 2. Platform -C/C++\n\n
 3. Teams will be judged on their accuracy as well as their efficiency.\n\n</string>
-    <string name="CL2rules">fasfasfasfas</string>
-    <string name="CL3rules">Open navigation drawer</string>
-    <string name="CL4rules">Open navigation drawer</string>
-    <string name="CL5rules">Open navigation drawer</string>
+    <string name="CL2rules">NOT DECIDED</string>
+    <string name="CL3rules">1. Registration to be done first.\n\n
+2. There will be short audition thing to shortlist the participants. (Round 1)\n\n
+3. Now, teams of 3 participants in each will be made. Using the talent they have to impress the audience there and collect the amount.\n\n
+4. They need to get the audience attracted towards them. One coordinator will be given to each team.\n\n
+5. After the time is over, they need to report to the coordinators for evaluation.</string>
+    <string name="CL4rules">1. Registration to be done first.\n\n
+2. There will be short audition thing to shortlist the participants. (Round 1)\n\n
+3. Now, teams of 3 participants in each will be made. Using the talent they have to impress the audience there and collect the amount.\n\n
+4. They need to get the audience attracted towards them. One coordinator will be given to each team.\n\n
+5. After the time is over, they need to report to the coordinators for evaluation.</string>
+    <string name="CL5rules">1. Registration to be done first.\n\n
+2. There will be short audition thing to shortlist the participants. (Round 1)\n\n
+3. Now, teams of 3 participants in each will be made. Using the talent they have to impress the audience there and collect the amount.\n\n
+4. They need to get the audience attracted towards them. One coordinator will be given to each team.\n\n
+5. After the time is over, they need to report to the coordinators for evaluation</string>
     <string name="CL6rules">Open navigation drawer</string>
     <string name="CL7rules">Open navigation drawer</string>
     <string name="CL8rules">Open navigation drawer</string>
@@ -90,14 +102,13 @@ Prize: ₹ 500\n\n</string>
 
     <!--STRING VALUES FOR CULTURAL EVENTS' DESCRIPTION-->
 
-    <string name="CL0description">Talent is not all about juggling balls or eating fire. For me, talent is simply doing the best with what we have. Kindness could be a talent. So could be survival.
-It is easy to think that talent leading to riches is the end goal. But using your talents need not be a competitive catapult - it can be a little joy for a full weekend. Or a stress buster on a busy day.
-It is the mere act of pursuing something to the best of your ability every day that makes you unique.</string>
+    <string name="CL0description">A SHORT STORY WRITING COMPETITION. I’VE BEEN INTERESTED IN DREAMS SINCE I WAS A KID AND I’VE WANTED TO DO A FILM ABOUT THEM FOR A LONG TIME -Christopher Nolan.
+“Our competition is solely dedicated to recognizing, supporting and honoring the work of the unsung writers whose fiction has not yet reached a larger audience”. And I consider it my job to honor the talent of these writers. Think you can write a story in 700 words or less? Enter the competition Be like Nolan.</string>
     <string name="CL1description">The event is all about playing a 1 vs 1 quiz on a mobile app “QuizUp”. The quiz consists of seven questions related to a selected topic and 10 seconds is allotted for answering each question. The quick correct response will get higher points in comparison to a slower response and no points for a wrong answer. At the end of the game the score of each player will be displayed on the screen according to which a winner will be declared.</string>
-    <string name="CL2description">Open navigation drawer</string>
-    <string name="CL3description">Open navigation drawer</string>
-    <string name="CL4description">Open navigation drawer</string>
-    <string name="CL5description">Open navigation drawer</string>
+    <string name="CL2description">The event is all about playing a 1 vs 1 quiz on a mobile app “QuizUp”. The quiz consists of seven questions related to a selected topic and 10 seconds is allotted for answering each question. The quick correct response will get higher points in comparison to a slower response and no points for a wrong answer. At the end of the game the score of each player will be displayed on the screen according to which a winner will be declared.</string>
+    <string name="CL3description">Online photography competetion</string>
+    <string name="CL4description">Prop photography (on the spot)</string>
+    <string name="CL5description">Filmmaking competition (online)</string>
     <string name="CL6description">Open navigation drawer</string>
     <string name="CL7description">Open navigation drawer</string>
     <string name="CL8description">Open navigation drawer</string>
@@ -111,10 +122,14 @@ It is the mere act of pursuing something to the best of your ability every day t
 		Email: shivanisingh.seno@gmail.com\n\n</string>
     <string name="CL1coordinators">Name: Shivani singh\n\n
 		Email: shivanisingh.seno@gmail.com\n\n</string>
-    <string name="CL2coordinators">Open navigation drawer</string>
-    <string name="CL3coordinators">Open navigation drawer</string>
-    <string name="CL4coordinators">Open navigation drawer</string>
-    <string name="CL5coordinators">Open navigation drawer</string>
+    <string name="CL2coordinators">Name: Priya singh\n\n
+		Email: priyasingh.seno@gmail.com\n\n</string>
+    <string name="CL3coordinators">Name: Raj singh\n\n
+		Email: raj.seno@gmail.com\n\n</string>
+    <string name="CL4coordinators">Name: Sachin singh\n\n
+		Email: sachu.seno@gmail.com\n\n</string>
+    <string name="CL5coordinators">Name: Himanshu singh\n\n
+		Email: himanshu.seno@gmail.com\n\n</string>
     <string name="CL6coordinators">Open navigation drawer</string>
     <string name="CL7coordinators">Open navigation drawer</string>
     <string name="CL8coordinators">Open navigation drawer</string>
@@ -132,13 +147,13 @@ Duration: 10:00AM - 12:00PM (2hr)\n\n
 Registration Fees: Free\n\n
 
 Prize: ₹ 500\n\n</string>
-    <string name="TS1venue">Venue: not decided\n\n
+    <string name="TS1venue">Venue: MAIT (computer lab)\n\n
 
 Duration: 10:00AM - 12:00PM (2hr)\n\n
 
-Registration Fees: Free\n\n
+Registration Fees: ₹ 100\n\n
 
-Prize: ₹ 500\n\n</string>
+Prize: not decided</string>
     <string name="TS2venue">Venue: not decided\n\n
 
 Duration: 10:00AM - 12:00PM (2hr)\n\n
@@ -249,12 +264,24 @@ Prize: ₹ 500\n\n</string>
 
     <!--STRING VALUES FOR TECHSURGE EVENTS' RULES-->
 
-    <string name="TS0rules">Open navigation drawer</string>
-    <string name="TS1rules">Open navigation drawer</string>
-    <string name="TS2rules">Open navigation drawer</string>
-    <string name="TS3rules">Open navigation drawer</string>
-    <string name="TS4rules">Open navigation drawer</string>
-    <string name="TS5rules">Open navigation drawer</string>
+    <string name="TS0rules">1. Each team can have maximum 2 member
+2. Platform -C/C++
+3. Teams will be judged on their accuracy as well as their efficiency.</string>
+    <string name="TS1rules">1. Each team can have maximum 2 member
+2. Platform -java.Django
+3. Teams will be judged on their accuracy as well as their efficiency.</string>
+    <string name="TS2rules">1. Each team can have maximum 2 member
+2. Platform -java
+3. Teams will be judged on their accuracy as well as their efficiency.</string>
+    <string name="TS3rules">1. Each team can have maximum 2 member
+2. Platform -java
+3. Teams will be judged on their accuracy as well as their efficiency.</string>
+    <string name="TS4rules">1. Each team can have maximum 2 member
+2. Platform -java
+3. Teams will be judged on their accuracy as well as their efficiency.</string>
+    <string name="TS5rules">1. Each team can have maximum 2 member
+2. Platform -java
+3. Teams will be judged on their accuracy as well as their efficiency.</string>
     <string name="TS6rules">Open navigation drawer</string>
     <string name="TS7rules">Open navigation drawer</string>
     <string name="TS8rules">Open navigation drawer</string>
@@ -272,12 +299,28 @@ Prize: ₹ 500\n\n</string>
 
     <!--STRING VALUES FOR TECHSURGE EVENTS' DESCRIPTION-->
 
-    <string name="TS0description">Open navigation drawer</string>
-    <string name="TS1description">Open navigation drawer</string>
-    <string name="TS2description">Open navigation drawer</string>
-    <string name="TS3description">Open navigation drawer</string>
-    <string name="TS4description">Open navigation drawer</string>
-    <string name="TS5description">Open navigation drawer</string>
+    <string name="TS0description">The idea behind this event is to figure out the "Black Box". In other words the participants are given an executable program and are asked to do reverse coding, that is to develop the source code.\n\n
+
+Round 1: Prelims
+The teams will need to answer a written test; comprising questions on logic, basic programming concepts, pattern recognition and program analysis among others. Based on their performance, teams will be shortlisted for the final round.\n\n
+
+Round 2: Final Round
+All the teams shortlisted from prelims round will have to decipher a set of executables; and write a program for each to perform in the same manner</string>
+    <string name="TS1description">Participants need to develop a website including frontend (without using any framework only using HTML,CSS,JS) and backend
+(nodejs,Django,Java).
+Participants can use their innovations and design.</string>
+    <string name="TS2description">Participants need to develop a app including frontend (without using any framework only using xml) and backend
+(Android stduio).
+Participants can use their innovations and design.</string>
+    <string name="TS3description">Participants need to develop a app including frontend (without using any framework only using xml) and backend
+(Android stduio).
+Participants can use their innovations and design.r</string>
+    <string name="TS4description">Participants need to develop a app including frontend (without using any framework only using xml) and backend
+(Android stduio).
+Participants can use their innovations and design.r</string>
+    <string name="TS5description">Participants need to develop a app including frontend (without using any framework only using xml) and backend
+(Android stduio).
+Participants can use their innovations and design.r</string>
     <string name="TS6description">Open navigation drawer</string>
     <string name="TS7description">Open navigation drawer</string>
     <string name="TS8description">Open navigation drawer</string>
@@ -295,12 +338,17 @@ Prize: ₹ 500\n\n</string>
 
     <!--STRING VALUES FOR TECHSURGE EVENTS' COORDINATORS-->
 
-    <string name="TS0coordinators">Open navigation drawer</string>
-    <string name="TS1coordinators">Open navigation drawer</string>
-    <string name="TS2coordinators">Open navigation drawer</string>
-    <string name="TS3coordinators">Open navigation drawer</string>
-    <string name="TS4coordinators">Open navigation drawer</string>
-    <string name="TS5coordinators">Open navigation drawer</string>
+    <string name="TS0coordinators">Name: Shivani singh
+Email: shivanisingh123.seno@gmail.com</string>
+    <string name="TS1coordinators">Name: Piyush Kakkar
+Mobile: 9873609932</string>
+    <string name="TS2coordinators">Name: Anirudh Goel(8130622230) Rishabh Jain (9810203807)</string>
+    <string name="TS3coordinators">Name: Piyush Kakkar
+Mobile: 9873609932</string>
+    <string name="TS4coordinators">Name: Anurag Nain
+Mobile: 9958457722</string>
+    <string name="TS5coordinators">Name: Kartik Wadehra
+Mobile: 8802559078</string>
     <string name="TS6coordinators">Open navigation drawer</string>
     <string name="TS7coordinators">Open navigation drawer</string>
     <string name="TS8coordinators">Open navigation drawer</string>
@@ -486,12 +534,13 @@ Prize: ₹ 500\n\n</string>
 
     <!--STRING VALUES FOR NON TECH EVENTS' RULES-->
 
-    <string name="NT0rules">Open navigation drawer</string>
-    <string name="NT1rules">Open navigation drawer</string>
+    <string name="NT0rules">In nine-ball, except when a push-out has been invoked, a legal shot consists of striking the cue ball into the lowest numbered object ball on the table and subsequently either pocketing an object ball or driving any ball (including the cue ball) to any rail, otherwise, the shot is a foul.</string>
+    <string name="NT1rules">Both Boys and Girls categories</string>
     <string name="NT2rules">Open navigation drawer</string>
-    <string name="NT3rules">Open navigation drawer</string>
-    <string name="NT4rules">Open navigation drawer</string>
-    <string name="NT5rules">Open navigation drawer</string>
+    <string name="NT3rules">Only for Boys\n\n
+ 8 players per Team</string>
+    <string name="NT4rules">Both Boys and Girls categories</string>
+    <string name="NT5rules">Both Boys and Girls categories</string>
     <string name="NT6rules">Open navigation drawer</string>
     <string name="NT7rules">Open navigation drawer</string>
     <string name="NT8rules">Open navigation drawer</string>
@@ -515,12 +564,14 @@ Prize: ₹ 500\n\n</string>
 
     <!--STRING VALUES FOR NON TECH EVENTS' DESCRIPTION-->
 
-    <string name="NT0description">Open navigation drawer</string>
-    <string name="NT1description">Open navigation drawer</string>
-    <string name="NT2description">Open navigation drawer</string>
-    <string name="NT3description">Open navigation drawer</string>
-    <string name="NT4description">Open navigation drawer</string>
-    <string name="NT5description">Open navigation drawer</string>
+    <string name="NT0description">Pool (9 Ball) is played on a pocket billiards table with six pockets and with ten balls. The cue balL  which is usually a solid shade of white is struck to hit the lowest numbered ball on the table each of these balls are distinctly colored and numbered 1 through 9. The object of the game is to legally pocket the 9-ball.</string>
+    <string name="NT1description">Kabaddi is a contact team sport that originated in ancient India in Tamil Nadu
+
+Two teams compete, each occupying its own half of the court. They take turns sending a raider into the opposing team half and earn points if the raider manages to touch opposing team members and return to the home half, all while taking only a single breath. If however the raider is tackled and prevented from returning, the opposing team earns the point.</string>
+    <string name="NT2description">Arm wrestling involves two participants. Each places one arm on a surface with their elbows bent and touching the surface and they grip each other hand. The goal is to pin the other arm onto the surface, the winner arm over the loser arm.</string>
+    <string name="NT3description">Galli Cricket is an informal adhoc variant of the game of cricket, played by people of all genders and all ages in gardens, backyards, on the street, in parks, car parks and any area not specifically intended for the purpose.</string>
+    <string name="NT4description">Tug of war is a sport that directly puts two teams against each other in a test of strength teams pull on opposite ends of a rope, with the goal being to bring the rope a certain distance in one direction against the force of the opposing team pull.</string>
+    <string name="NT5description">Carrom is a strike and pocket table game of Eastern origin.</string>
     <string name="NT6description">Open navigation drawer</string>
     <string name="NT7description">Open navigation drawer</string>
     <string name="NT8description">Open navigation drawer</string>
@@ -544,12 +595,20 @@ Prize: ₹ 500\n\n</string>
 
     <!--STRING VALUES FOR NON-TECH EVENTS' COORDINATORS-->
 
-    <string name="NT0coordinators">Open navigation drawer</string>
-    <string name="NT1coordinators">Open navigation drawer</string>
-    <string name="NT2coordinators">Open navigation drawer</string>
-    <string name="NT3coordinators">Open navigation drawer</string>
-    <string name="NT4coordinators">Open navigation drawer</string>
-    <string name="NT5coordinators">Open navigation drawer</string>
+    <string name="NT0coordinators">Name: Aman Dabas\n\n
+Email: amandabas971@gmail.com\n\n
+Mobile: 7503597272\n\n</string>
+    <string name="NT1coordinators">Name: Aman Kumar\n\n
+Mobile: 7503597272\n\n</string>
+    <string name="NT2coordinators">Name: Aman Dabas\n\n
+Email: amandabas971@gmail.com\n\n
+Mobile: 7503597272\n\n</string>
+    <string name="NT3coordinators">Name: Avinash \n\n
+Mobile: 8376079518</string>
+    <string name="NT4coordinators">Name: Akshit\n\n
+Mobile: 9717423157</string>
+    <string name="NT5coordinators">Name: Avinash \n\n
+Mobile: 8376079518</string>
     <string name="NT6coordinators">Open navigation drawer</string>
     <string name="NT7coordinators">Open navigation drawer</string>
     <string name="NT8coordinators">Open navigation drawer</string>
@@ -643,11 +702,26 @@ Prize: ₹ 500\n\n</string>
 
     <!--STRING VALUES FOR LITERARY EVENTS' RULES-->
 
-    <string name="LR0rules">Open navigation drawer</string>
-    <string name="LR1rules">Open navigation drawer</string>
-    <string name="LR2rules">Open navigation drawer</string>
-    <string name="LR3rules">Open navigation drawer</string>
-    <string name="LR4rules">Open navigation drawer</string>
+    <string name="LR0rules">1. Participation in a team of two.\n\n
+2. Each speaker has to speak for a minimum of 3 minutes a maximum of 4 minutes. Marks will be deducted for not adhering to the time bounds.\n\n
+3. Usage of slangs or any inappropriate behavior will lead to disqualification.\n\n
+4. All arguments should be only in English, if not marks will be deducted.\n\n
+5. The decision of the judges shall be final and binding.\n\n</string>
+    <string name="LR1rules">Rules to be disclosed then and there.</string>
+    <string name="LR2rules">1. Each poem must be of the poet’s own construction i.e. original.\n\n
+2. Each poet gets four minutes to recite the poem. If the poet goes over time, points will be deducted from the total score.\n\n
+3. The poet may not use props, costumes or musical instruments.\n\n
+4. The decision of the judges shall be binding for all.\n\n</string>
+    <string name="LR3rules">1. Plagiarism and vulgarity in work will be firmly detested.\n\n
+2. Exceeding the time limit will lead to disqualification.\n\n
+3. The decision of the judges will be final and binding for all.\n\n
+4. The participant must write either in Hindi or English. Usage of Hindi words in English or vice-versa will lead to deduction of marks.\n\n</string>
+    <string name="LR4rules">ROUND 1: written round-35 questions to be solved in 30 minutes.\n\n
+ROUND 2: best 8 teams (audio /visual round)\n\n
+
+Each team can have a maximum of 2 participants. The rules and regulations of the event will be disclosed at the time of the event.
+
+</string>
     <string name="LR5rules">Open navigation drawer</string>
     <string name="LR6rules">Open navigation drawer</string>
     <string name="LR7rules">Open navigation drawer</string>
@@ -657,11 +731,30 @@ Prize: ₹ 500\n\n</string>
 
     <!--STRING VALUES FOR LITERARY EVENTS' DESCRIPTION-->
 
-    <string name="LR0description">Open navigation drawer</string>
-    <string name="LR1description">Open navigation drawer</string>
-    <string name="LR2description">Open navigation drawer</string>
-    <string name="LR3description">Open navigation drawer</string>
-    <string name="LR4description">Open navigation drawer</string>
+    <string name="LR0description">The Conventional Debate\n\n
+
+For those who are ever opinionated.
+This is a conventional debate and the topic will be declared to the participants 72 hours before the event begins.</string>
+    <string name="LR1description">Impromptu Speech
+
+Play JAM Charades, only if wits  words unite. This is a team event. Each team consists of two participants. One member will be given an idiom which he would enact and the other would guess. If the guess is made correctly in the given time limit, the second team member will speak spontaneously on it.</string>
+    <string name="LR2description">Poetry Slam
+
+Run riot with your tumultuous thoughts and alluring élan!
+The participants are required to recite their poems in front of the crowd. The poetry can be in Hindi or English.</string>
+    <string name="LR3description">English and Hindi Creative Writing
+
+Have you ever tried spinning a story around random phrases thrown at you??
+If yes, then “SPIN-A- YARN” is the apt event to showcase your creativity.
+“SPIN-A- YARN” is an event in which we will be bashing you with a total of 5 idioms/phrases and the twist being that they will be given one by one, each after an interval of 15 minutes. After the last word being given to you, a 15 minute time will be given to conclude your write-up (story or poem).
+</string>
+    <string name="LR4description">
+This is a general quiz consisting of the following sections:\n\n
+1. Business and technology\n\n
+2. Sports\n\n
+3. Literature\n\n
+4. Politics and history\n\n
+5. Movies (bolly and holly)\n\n</string>
     <string name="LR5description">Open navigation drawer</string>
     <string name="LR6description">Open navigation drawer</string>
     <string name="LR7description">Open navigation drawer</string>
@@ -670,11 +763,20 @@ Prize: ₹ 500\n\n</string>
 
     <!--STRING VALUES FOR LITERARY EVENTS' COORDINATORS-->
 
-    <string name="LR0coordinators">Open navigation drawer</string>
-    <string name="LR1coordinators">Open navigation drawer</string>
-    <string name="LR2coordinators">Open navigation drawer</string>
-    <string name="LR3coordinators">Open navigation drawer</string>
-    <string name="LR4coordinators">Open navigation drawer</string>
+    <string name="LR0coordinators">Name: VEDANSHI TANEJA
+Email: literaryumbrella@gmail.com
+</string>
+    <string name="LR1coordinators">Name: Rishabh Bhardwaj\n\n
+Email: literaryumbrella@gmail.com\n\n
+Mobile: 9582248067\n\n</string>
+    <string name="LR2coordinators">Name: NAMAN CHANDRA\n\n
+Email: literaryumbrella@gmail.com\n\n
+</string>
+    <string name="LR3coordinators">Name: ANUREET KAUR BHATIA
+Email: literaryumbrella@gmail.com</string>
+    <string name="LR4coordinators">>Name: Rishabh Bhardwaj\n\n
+Email: literaryumbrella@gmail.com\n\n
+Mobile: 9582248067\n\n</string>
     <string name="LR5coordinators">Open navigation drawer</string>
     <string name="LR6coordinators">Open navigation drawer</string>
     <string name="LR7coordinators">Open navigation drawer</string>

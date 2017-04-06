@@ -77,38 +77,42 @@ public class SampleListFragment2 extends ScrollTabHolderFragment {
             mListItems.add("Let’s QuizUp");
             mListItems.add("Pixelate");
             mListItems.add("Contrast");
-            mListItems.add("Moving Pictures");
+            mListItems.add(
+                    "Directors Cut");
         }
         else if(mPosition==1){
-            mListItems.add("Choreo Elims");
-            mListItems.add("Street Dance");
-            mListItems.add("Desert Duel");
-            mListItems.add("Razzmatazz Elims");
-            mListItems.add("Rock Dance");
-            mListItems.add("Funk in Motion");
-            mListItems.add("bhangra Dance");
+            mListItems.add("Reverse Coding");
+            mListItems.add("Web Design");
+            mListItems.add("Appathon");
+            mListItems.add("HackMait");
+            mListItems.add("Blind-Coding");
+            mListItems.add(
+                    "TechShowdown");
+
 
 
         }
         else if(mPosition==2){
-            mListItems.add("Choreo Elims");
-            mListItems.add("Street Dance");
-            mListItems.add("Desert Duel");
-            mListItems.add("Razzmatazz Elims");
-            mListItems.add("Rock Dance");
-            mListItems.add("Funk in Motion");
-            mListItems.add("bhangra Dance");
+            mListItems.add("Pool (9 Ball)");
+            mListItems.add("KHEL KABADDI (Boys Only)");
+            mListItems.add("Arm wrestling");
+            mListItems.add("Galli Cricket");
+            mListItems.add("TUG OF WAR");
+            mListItems.add("Carrom");
+
 
 
         }
         else if(mPosition==3){
-            mListItems.add("Choreo Elims");
-            mListItems.add("Street Dance");
-            mListItems.add("Desert Duel");
-            mListItems.add("Razzmatazz Elims");
-            mListItems.add("Rock Dance");
-            mListItems.add("Funk in Motion");
-            mListItems.add("bhangra Dance");
+            mListItems.add("Vincero");
+            mListItems.add(
+                    "JAM Charades");
+            mListItems.add(
+                    "Ardor");
+            mListItems.add(
+                    "Spin-A- Yarn");
+            mListItems.add(
+                    "Conundrum");
 
 
         }
@@ -238,7 +242,7 @@ public class SampleListFragment2 extends ScrollTabHolderFragment {
                 public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
                     Intent intent1;
                     intent1=new Intent(getContext(),EventDetails.class);
-                    intent1.putExtra("eventcode","SP"+ (position-1));
+                    intent1.putExtra("eventcode","LR"+ (position-1));
                     intent1.putExtra("eventName",mListItems.get(position-1));
                     startActivity(intent1);
                 }

@@ -72,57 +72,57 @@ public class SampleListFragment extends ScrollTabHolderFragment {
         mListCode = new ArrayList<String>();
 
 if(mPosition==0) {
-    mListItems.add("Choreo Elims");
-    mListItems.add("Street Dance");
-    mListItems.add("Desert Duel");
-    mListItems.add("Razzmatazz Elims");
-    mListItems.add("Rock Dance");
-    mListItems.add("Funk in Motion");
-    mListItems.add("bhangra Dance");
+    mListItems.add("Reverse Coding");
+    mListItems.add("Web Design");
+    mListItems.add("Appathon");
+    mListItems.add("HackMait");
+    mListItems.add("Blind-Coding");
+    mListItems.add("Tech showdown");
 
-    mListCode.add("CL2");
-    mListCode.add("TS4");
-    mListCode.add("NT5");
-    mListCode.add("SP2");
-    mListCode.add("CL2");
+
+    mListCode.add("TS0");
+    mListCode.add("TS1");
+    mListCode.add("TS2");
     mListCode.add("TS3");
-    mListCode.add("SP6");
+    mListCode.add("TS4");
+    mListCode.add("TS5");
+
 
 
 }
         else if(mPosition==1){
-    mListItems.add("Choreo Elims");
-    mListItems.add("Street Dance");
-    mListItems.add("Desert Duel");
-    mListItems.add("Razzmatazz Elims");
-    mListItems.add("Rock Dance");
-    mListItems.add("Funk in Motion");
-    mListItems.add("bhangra Dance");
+    mListItems.add("Pool (9 Ball)");
+    mListItems.add("KHEL KABADDI (Boys Only)");
+    mListItems.add("Arm wrestling");
+    mListItems.add("Galli Cricket");
+    mListItems.add("TUG OF WAR");
+    mListItems.add("Carrom");
 
-    mListCode.add("CL2");
-    mListCode.add("TS4");
+    mListCode.add("NT2");
+    mListCode.add("NT4");
     mListCode.add("NT5");
-    mListCode.add("SP2");
-    mListCode.add("CL2");
-    mListCode.add("TS3");
-    mListCode.add("SP6");
+    mListCode.add("NT2");
+    mListCode.add("NT2");
+    mListCode.add("NT3");
+
 }
 
 else if(mPosition==2){
-    mListItems.add("Choreo Elims");
-    mListItems.add("Street Dance");
-    mListItems.add("Desert Duel");
-    mListItems.add("Razzmatazz Elims");
-    mListItems.add("Rock Dance");    mListItems.add("Funk in Motion");
-    mListItems.add("bhangra Dance");
+    mListItems.add("Be Like Nolan");
+    mListItems.add("Be You");
+    mListItems.add("Let’s QuizUp");
+    mListItems.add("Pixelate");
+    mListItems.add("Contrast");
+    mListItems.add(
+            "Directors Cut");
 
+
+    mListCode.add("CL0");
+    mListCode.add("CL1");
     mListCode.add("CL2");
-    mListCode.add("TS4");
-    mListCode.add("NT5");
-    mListCode.add("SP2");
-    mListCode.add("CL2");
-    mListCode.add("TS3");
-    mListCode.add("SP6");
+    mListCode.add("CL3");
+    mListCode.add("CL4");
+    mListCode.add("CL5");
 }
     }
 
