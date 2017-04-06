@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="?android:attr/listPreferredItemHeight">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:id="@+id/leftTextView"/>
+
+
+    <com.like.LikeButton
+        app:icon_type="heart"
+        app:circle_start_color="#f7d61d"
+        app:like_drawable="@drawable/heart_on"
+        app:unlike_drawable="@drawable/heart_off"
+        app:dots_primary_color="#b53f3f"
+        app:dots_secondary_color="#f7d61d"
+        app:circle_end_color="#b53f3f"
+        app:icon_size="25dp"
+        app:liked="false"
+        app:anim_scale_factor="2"
+        app:is_enabled="true"
+        android:layout_marginRight="3dp"
+        android:layout_gravity="center"
+        android:layout_height="30dp"
+        android:layout_width="30dp" />
+</LinearLayout>

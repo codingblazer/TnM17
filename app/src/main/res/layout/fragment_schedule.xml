@@ -16,12 +16,12 @@
         android:gravity="center"
         android:textColor="#FF0000" />
 
-    <Button
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:layout_margin="10dp"
-        android:id="@+id/back_button"
-        android:background="@drawable/back_button" />
+    <!--<Button-->
+        <!--android:layout_width="20dp"-->
+        <!--android:layout_height="20dp"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:id="@+id/back_button"-->
+        <!--android:background="@drawable/back_button" />-->
 
     <FrameLayout
         android:id="@+id/header"

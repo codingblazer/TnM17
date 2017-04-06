@@ -74,13 +74,13 @@ public class Schedule extends FragmentActivity implements ScrollTabHolder, ViewP
         mPagerSlidingTabStrip.setOnPageChangeListener(this);
         mLastY = 0;
 
-        backbutton=(Button)findViewById(R.id.back_button);
-        backbutton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                finish();
-            }
-        });
+//        backbutton=(Button)findViewById(R.id.back_button);
+//        backbutton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                finish();
+//            }
+//        });
     }
 
     @Override

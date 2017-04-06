@@ -15,7 +15,10 @@ import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.AbsListView.OnScrollListener;
 import android.widget.AdapterView;
+
+
 import android.widget.ArrayAdapter;
+
 import android.widget.ListView;
 
 import com.baoyz.swipemenulistview.SwipeMenu;
@@ -24,6 +27,7 @@ import com.baoyz.swipemenulistview.SwipeMenuItem;
 import com.baoyz.swipemenulistview.SwipeMenuListView;
 import com.example.sachinaggarwal.tnm17.EventDetails;
 import com.example.sachinaggarwal.tnm17.Fragments.Schedule;
+import com.example.sachinaggarwal.tnm17.ListArrayAdapter;
 import com.example.sachinaggarwal.tnm17.R;
 
 import java.util.ArrayList;
@@ -185,8 +189,23 @@ else if(mPosition==2){
         super.onActivityCreated(savedInstanceState);
 
 
-        mListView.setOnScrollListener(new OnScroll());
-        mListView.setAdapter(new ArrayAdapter<String>(getActivity(), R.layout.list_item, android.R.id.text1, mListItems));
+        mListView.setOnScrollListener(new OnScrollListener() {
+            @Override
+            public void onScrollStateChanged(AbsListView view, int scrollState) {
+
+            }
+
+            @Override
+            public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
+
+            }
+        });
+
+
+        if (Schedule.NEEDS_PROXY) {//in my moto phone(android 2.1),setOnScrollListener do not work well
+
+        ListArrayAdapter adpater = new ListArrayAdapter(getActivity(), mListItems);
+        mListView.setAdapter(adpater);
 
 
         if(mPosition==0){
@@ -233,6 +252,7 @@ else if(mPosition==2){
             });
         }
         if(Schedule.NEEDS_PROXY){//in my moto phone(android 2.1),setOnScrollListener do not work well
+
             mListView.setOnTouchListener(new OnTouchListener() {
 
                 @Override
@@ -243,40 +263,17 @@ else if(mPosition==2){
                 }
             });
         }
-    }
-
-    @Override
-    public void adjustScroll(int scrollHeight) {
-        if (scrollHeight == 0 && mListView.getFirstVisiblePosition() >= 1) {
-            return;
-        }
-
-        mListView.setSelectionFromTop(1, scrollHeight);
-
-    }
-
-    public class OnScroll implements OnScrollListener{
+    }}
 
 
-        @Override
-        public void onScrollStateChanged(AbsListView view, int scrollState) {
-
-        }
-
-        @Override
-        public void onScroll(AbsListView view, int firstVisibleItem,
-                             int visibleItemCount, int totalItemCount) {
-            if (mScrollTabHolder != null)
-                mScrollTabHolder.onScroll(view, firstVisibleItem, visibleItemCount, totalItemCount, mPosition);
-        }
-
-    }
 
 
-    @Override
-    public void onScroll(AbsListView view, int firstVisibleItem,
-                         int visibleItemCount, int totalItemCount, int pagePosition) {
-    }
+
+//
+//    @Override
+//    public void onScroll(AbsListView view, int firstVisibleItem,
+//                         int visibleItemCount, int totalItemCount, int pagePosition) {
+//    }
 
 
 //    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -405,6 +402,22 @@ else if(mPosition==2){
         return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp,
                 getResources().getDisplayMetrics());
     }
+
+    @Override
+    public void adjustScroll(int scrollHeight) {
+        if (scrollHeight == 0 && mListView.getFirstVisiblePosition() >= 1) {
+            return;
+        }
+
+        mListView.setSelectionFromTop(1, scrollHeight);
+    }
+
+    @Override
+    public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount, int pagePosition) {
+        if (mScrollTabHolder != null)
+            mScrollTabHolder.onScroll(view, firstVisibleItem, visibleItemCount, totalItemCount, mPosition);
+    }
+
 //
 //    @Override
 //    public void onActivityCreated(Bundle savedInstanceState) {

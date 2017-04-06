@@ -13,7 +13,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.baoyz.swipemenulistview.SwipeMenu;
@@ -22,6 +21,7 @@ import com.baoyz.swipemenulistview.SwipeMenuItem;
 import com.baoyz.swipemenulistview.SwipeMenuListView;
 import com.example.sachinaggarwal.tnm17.EventDetails;
 import com.example.sachinaggarwal.tnm17.Fragments.Schedule;
+import com.example.sachinaggarwal.tnm17.ListArrayAdapter;
 import com.example.sachinaggarwal.tnm17.R;
 
 import java.util.ArrayList;
@@ -32,7 +32,7 @@ import java.util.ArrayList;
 public class SampleListFragment2 extends ScrollTabHolderFragment {
 
     private static final String ARG_POSITION = "position";
-
+//https://github.com/jd-alexander/LikeButton
     //<<<<<<< HEAD
     private ListView mListView;
     //    private SwipeMenuListView mList;
@@ -176,8 +176,8 @@ public class SampleListFragment2 extends ScrollTabHolderFragment {
         super.onActivityCreated(savedInstanceState);
 
         mListView.setOnScrollListener(new OnScroll());
-        mListView.setAdapter(new ArrayAdapter<String>(getActivity(), R.layout.list_item, android.R.id.text1, mListItems));
-
+        ListArrayAdapter adpater = new ListArrayAdapter(getActivity(), mListItems);
+        mListView.setAdapter(adpater);
         if(mPosition==0){
 
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

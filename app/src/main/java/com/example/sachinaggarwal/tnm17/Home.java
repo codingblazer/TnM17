@@ -2,6 +2,7 @@ package com.example.sachinaggarwal.tnm17;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.Bundle;
 import android.os.Handler;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -11,7 +12,6 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -116,8 +116,8 @@ public class Home extends AppCompatActivity implements NavigationView.OnNavigati
                 break;
 
             case R.id.map:
-                lastFragment = new MapFragment();
-                fragment = new MapFragment();
+                Intent intent3=new Intent(this,MapFragment.class);
+                startActivity(intent3);
                 break;
 
             case R.id.sponsors:
