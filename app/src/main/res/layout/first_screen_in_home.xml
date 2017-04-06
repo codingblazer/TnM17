@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/id_mait_collage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/id_mait_collage"
+        android:background="#0D1B2A">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha=".4"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/id_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_mait_collage"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:fillViewport="true"
+        android:maxLines="20"
+        android:scrollbars="vertical"
+        android:text="Maharaja Agrasen Institute of Technology presents Techsurge &amp; Mridang'17,23 March to 25 March which is the Annual Technical and Cultural Fest of Maharaja Agrasen Institute of Technology (MAIT),Rohini affiliated under GGSIPU. \n \n It was established in the 1999 and since then it has taken long strides in providing quality Engineering and Technical education to students.\n\nAs mentioned its objective an excellent hardware-software symbiosis is maintained in each and every laboratory of this Institute. Students are encouraged to explore the 'What if'  situation arising in the Engineering problems using software tools. Entrepreneurial skills are also being cultivated in the students."
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>
