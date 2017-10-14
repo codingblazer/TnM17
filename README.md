@@ -23,30 +23,7 @@ This feature helps Attendees to navigate to particular event that shows the comp
 
 ### Screenshots
 
-<p align="center">
-  <img src="images/ss1.png" width="250"/>&nbsp;
-  <img src="images/ss2.png" width="250"/>&nbsp;
-  <img src="images/ss3.png" width="250"/>
-</p>
-<p align="center">
-  <img src="images/ss4.png" width="250"/>&nbsp;
-  <img src="images/ss5.png" width="250"/>&nbsp;
-  <img src="images/ss11.png" width="250"/>
-</p>
-<p align="center">
-  <img src="images/ss12.png" width="250"/>&nbsp;
-  <img src="images/ss13.png" width="250"/>&nbsp;
-  <img src="images/ss14.png" width="250"/>
-</p>
-<p align="center">
-  <img src="images/ss6.png" width="250"/>&nbsp;
-  <img src="images/ss7.png" width="250"/>&nbsp;
-  <img src="images/ss8.png" width="250"/>
-</p>
-<p align="center">
-  <img src="images/ss9.png" width="250"/>&nbsp;
-  <img src="images/ss10.png" width="250"/>&nbsp;
-</p>
+<img src="https://user-images.githubusercontent.com/13872065/31575215-116ab86e-b0ff-11e7-99f3-6a6d0f08f66d.png" height="600" width="350">  <img src="https://user-images.githubusercontent.com/13872065/31575216-11adfab6-b0ff-11e7-8a00-01936dbc88c5.png" height="600" width="350">  <img src="https://user-images.githubusercontent.com/13872065/31575217-12f13b0e-b0ff-11e7-833d-81efe6994192.png" height="600" width="350">  <img src="https://user-images.githubusercontent.com/13872065/31575218-13eda4ca-b0ff-11e7-8dc8-1b183162c08d.png" height="600" width="350">  <img src="https://user-images.githubusercontent.com/13872065/31575221-1d4ec7a6-b0ff-11e7-8af0-64d3b2cff93e.png" height="600" width="350">  <img src="https://user-images.githubusercontent.com/13872065/31575222-1decce88-b0ff-11e7-8ca9-ab10bc99a941.png" height="600" width="350">  <img src="https://user-images.githubusercontent.com/13872065/31575223-2264a0b2-b0ff-11e7-8540-9439cca9ffaa.png" height="600" width="350">  <img src="https://user-images.githubusercontent.com/13872065/31575224-2371994c-b0ff-11e7-9704-bedcbabc301f.png" height="600" width="350">  <img src="https://user-images.githubusercontent.com/13872065/31575225-2453810e-b0ff-11e7-8b2d-042e93af74ba.png" height="600" width="350">
 
 
 
